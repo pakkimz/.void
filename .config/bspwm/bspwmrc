@@ -1,0 +1,38 @@
+#! /bin/sh
+
+bspc rule -r "*"
+sxhkd &
+compton -b -c &
+nitrogen --restore &
+xsetroot -cursor_name left_ptr &
+unclutter &
+xautolock -time 5 -locker slock &
+# redshift &
+
+#bspc monitor -d I II III IV V VI VII VIII IX X
+#bspc monitor -d 1 2 3 4 5
+bspc monitor -d     
+
+bspc config top_padding         22
+bspc config border_width        1
+bspc config window_gap          0
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+bspc config focus_by_distance    true
+
+bspc rule -a Otter desktop='^2'follow=on
+bspc rule -a Zathura state=tiled
+# bspc rule -a Gimp desktop='^8' state=floating follow=on
+# bspc rule -a Chromium desktop='^2'follow=on
+# bspc rule -a SeaMonkey desktop='^2'follow=on
+# bspc rule -a SeaMonkey:Download state=floating
+# bspc rule -a SeaMonkey:Places state=floating
+# bspc rule -a MPlayer state=floating
+# bspc rule -a Mousepad state=floating
+# bspc rule -a Pcmanfm state=floating
+# bspc rule -a Kupfer.py focus=on
+# bspc rule -a Screenkey manage=off
+
+/home/house/.config/polybar/launch.sh &
