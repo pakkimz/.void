@@ -43,7 +43,7 @@ filetype plugin indent on                               " all in one line
 call plug#begin('~/.vim/plugged')
 Plug 'dbb/vim-gummybears-colorscheme'
 Plug 'sheerun/vim-polyglot'                             " mandatory
-" Plug 'majutsushi/tagbar'                                " sudo apt install exuberant-ctags
+Plug 'majutsushi/tagbar'                                " sudo xbps-install ctags
 Plug 'Raimondi/delimitMate'                             " jump c-g g or just repeat the action
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'henrik/vim-indexed-search'
