@@ -146,14 +146,14 @@ nnoremap <leader>e :e<Space>
 nnoremap <leader>E :e <C-R>=expand("%:p:h") . "/" <CR>
 
 " clipboard install vim-gtk
-" nnoremap gy "+y
-" nnoremap gY "+Y
-" vnoremap gy "+y
-" nnoremap gd "+d
-" nnoremap gD "+D
-" vnoremap gd "+d
-" nnoremap gp "+p
-" vnoremap gp "+p
+nnoremap gy "+y
+nnoremap gY "+Y
+vnoremap gy "+y
+nnoremap gd "+d
+nnoremap gD "+D
+vnoremap gd "+d
+nnoremap gp "+p
+vnoremap gp "+p
 
 " don't scroll too fast
 nnoremap <silent> <C-d> :call comfortable_motion#flick(50)<CR>
