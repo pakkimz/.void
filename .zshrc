@@ -98,5 +98,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# alias vi='gvim -v'
+# alias vim='gvim -v'
+alias vi=vim-x11
+alias vim=vim-x11
 alias config='/usr/bin/git --git-dir=$HOME/.void --work-tree=$HOME'
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
