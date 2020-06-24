@@ -1,0 +1,44 @@
+###############################################
+Jangan pakai command 'git', ganti pakai 'config'
+karena kita pakai git --bare, parent directory
+$HOME anakny ~/.dotfiles
+lebih jelas lihat file .zshrc
+###############################################
+
+###############################################
+"disable untracked file saat git status"
+config config --local status.showUntrackedFiles no
+###############################################
+"add this .zshrc"
+###############################################
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
+###############################################
+
+###############################################
+ganti 'git' pakai 'config'
+###############################################
+git add <file>
+git commit -m <"message">
+git push -u origin master
+
+Langkah detail
+1 - git config --global user.email "email@example.com"
+		git config --global user.name "name"
+
+2 - Buat folder yang mau di bare
+
+3 - git init --bare $HOME/folder_bare
+
+4 - Buat repository di github
+
+5 - Buat alias di .bashrc atau .zshrc
+		alias config='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
+
+6 - Biar status tidak muncul semua di $HOME
+		config config --local status.showUntrackedFiles no
+
+7 - config remote add origin https://github.com/username/folder_repo
+
+8 - git add <file>
+		git commit -m <"message">
+		git push -u origin master
