@@ -144,18 +144,18 @@ super + v
 super + n
   bspc node '@/' --flip horizontal
 
+XF86AudioLowerVolume
+	amixer set Master 5%-
+XF86AudioRaiseVolume
+	amixer set Master 5%+
+XF86AudioMute
+  amixer set Master toggle
+
 # volume control
 # XF86AudioRaiseVolume
 # 	pactl set-sink-volume 0 +10%
 # XF86AudioLowerVolume
 #	pactl set-sink-volume 0 -10%
-
-# XF86AudioLowerVolume
-# 	amixer set Master 5%-
-# XF86AudioRaiseVolume
-# 	amixer set Master 5%+
-# XF86AudioMute
-#   amixer set Master toggle
 
 # XF86MonBrightnessUp
 #   brightnessctl s +2
