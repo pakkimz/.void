@@ -102,5 +102,12 @@ source $ZSH/oh-my-zsh.sh
 # alias vim='gvim -v'
 alias vi=vim-x11
 alias vim=vim-x11
+
+alias sxiv="devour sxiv"
+alias mpv="devour mpv"
+alias mplayer="devour mplayer"
+alias zathura="devour zathura"
+alias seamonkey="devour /home/house/seamonkey/./seamonkey"
+
 alias config='/usr/bin/git --git-dir=$HOME/.void --work-tree=$HOME'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
