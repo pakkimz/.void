@@ -103,11 +103,13 @@ source $ZSH/oh-my-zsh.sh
 alias vi=vim-x11
 alias vim=vim-x11
 
-alias sxiv="devour sxiv"
 alias mpv="devour mpv"
 alias mplayer="devour mplayer"
+
+alias sxiv="devour sxiv"
 alias zathura="devour zathura"
 alias seamonkey="devour /home/house/seamonkey/./seamonkey"
 
 alias config='/usr/bin/git --git-dir=$HOME/.void --work-tree=$HOME'
+alias connect='sudo wpa_supplicant -B -i wlp2s0b1 -c /etc/wpa_supplicant/wpa_supplicant.conf'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
