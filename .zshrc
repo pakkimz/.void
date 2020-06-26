@@ -108,7 +108,6 @@ alias mplayer="devour mplayer"
 
 alias sxiv="devour sxiv"
 alias zathura="devour zathura"
-alias seamonkey="devour /home/house/seamonkey/./seamonkey"
 
 alias config='/usr/bin/git --git-dir=$HOME/.void --work-tree=$HOME'
 alias connect='sudo wpa_supplicant -B -i wlp2s0b1 -c /etc/wpa_supplicant/wpa_supplicant.conf'
