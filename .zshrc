@@ -106,6 +106,7 @@ alias vim=vim-x11
 alias mpv="devour mpv"
 alias mplayer="devour mplayer"
 
+alias trans="devour trans"
 alias sxiv="devour sxiv"
 alias zathura="devour zathura"
 
