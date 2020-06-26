@@ -22,7 +22,6 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 bspc config focus_by_distance    true
 
-bspc rule -a Otter desktop='^2'follow=on focus=on
 bspc rule -a Zathura state=tiled
 # bspc rule -a Gimp desktop='^8' state=floating follow=on
 # bspc rule -a Chromium desktop='^2'follow=on

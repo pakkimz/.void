@@ -14,9 +14,9 @@ super + space
 super + e
 	pcmanfm
 
-# program otter-browser
+# program SeaMonkey
 super + w
-	otter-browser
+	seamonkey
 
 # program slock
 ctrl + alt + l
