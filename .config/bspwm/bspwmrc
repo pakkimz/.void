@@ -2,7 +2,7 @@
 
 bspc rule -r "*"
 sxhkd &
-# compton -b -c &
+picom &
 nitrogen --restore &
 xsetroot -cursor_name left_ptr &
 unclutter &
