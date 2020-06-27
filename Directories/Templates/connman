@@ -1,0 +1,8 @@
+ # connmanctl
+ connmanctl> enable wifi
+ enabled wifi
+ connmanctl> agent on
+ agent registered
+ connmanctl> scan wifi
+ Scan completed for wifi
+ connmanctl> connect <wifi-SSID>
