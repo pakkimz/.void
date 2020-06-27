@@ -13,7 +13,7 @@ xautolock -time 9 -locker slock &
 #bspc monitor -d 1 2 3 4 5
 bspc monitor -d     
 
-bspc config top_padding         22
+bspc config top_padding         21
 bspc config border_width        1
 bspc config window_gap          0
 
