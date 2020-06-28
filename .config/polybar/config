@@ -76,7 +76,7 @@ modules-left = bspwm wlan
 ; modules-center = mpd
 modules-center = xwindow
 ; modules-right = filesystem xbacklight alsa pulseaudio xkeyboard memory cpu wlan eth battery temperature date powermenu
-modules-right = xkeyboard cpu temperature filesystem date powermenu
+modules-right = temperature xkeyboard cpu filesystem date powermenu
 
 ; tray-position = right
 ; tray-padding = 2
