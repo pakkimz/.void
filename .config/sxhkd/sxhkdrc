@@ -140,13 +140,8 @@ super + {Left,Down,Up,Right}
 super + r
   bspc node @/ -R 90
 
-# flip vertical
-super + v
-  bspc node '@/' --flip vertical
-
-# flip horizontal
-super + n
-  bspc node '@/' --flip horizontal
+super + shift + r
+  bspc node @/ -R -90
 
 XF86AudioLowerVolume
 	amixer set Master 5%-
@@ -165,3 +160,10 @@ XF86AudioMute
 #   brightnessctl s +2
 # XF86MonBrightnessDown
 #   brightnessctl s 2-
+
+# flip vertical
+# super + v
+#  bspc node '@/' --flip vertical
+# flip horizontal
+# super + n
+#  bspc node '@/' --flip horizontal
