@@ -139,7 +139,6 @@ super + {Left,Down,Up,Right}
 # rotate node
 super + r
   bspc node @/ -R 90
-
 super + shift + r
   bspc node @/ -R -90
 

@@ -24,12 +24,13 @@ bspc config gapless_monocle      true
 bspc config focus_by_distance    true
 
 bspc rule -a Zathura state=tiled
-bspc rule -a Pcmanfm desktop='^3' follow=on
+bspc rule -a Pcmanfm desktop='^3'follow=on
 # bspc rule -a Gimp desktop='^8' state=floating follow=on
 # bspc rule -a Chromium desktop='^2'follow=on
 bspc rule -a SeaMonkey desktop='^2'follow=on
 bspc rule -a SeaMonkey:Download state=floating
 bspc rule -a SeaMonkey:Places state=floating
+bspc rule -a "Pale moon" desktop='^2'follow=on
 # bspc rule -a MPlayer state=floating
 # bspc rule -a Mousepad state=floating
 # bspc rule -a Kupfer.py focus=on
