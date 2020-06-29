@@ -22,7 +22,7 @@ super + w
 ctrl + alt + l
 	slock
 
-# hide
+# hide/show floating window
 ctrl + alt + h
 	/bin/hide
 
