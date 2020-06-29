@@ -56,7 +56,7 @@ Plug 'tpope/vim-commentary'
 Plug 'jeetsukumaran/vim-buffergator'                    " leader-b for for buffer leader-t for tab
 " Plug 'Yggdroot/indentLine'                              " need expandtab to make it works
 " Plug 'ivalkeen/vim-simpledb'
-" Plug 'ap/vim-css-color'
+Plug 'ap/vim-css-color'
 " Plug 'valloric/matchtagalways'
 Plug 'captbaritone/better-indent-support-for-php-with-html'
 Plug 'kana/vim-textobj-user'
