@@ -14,6 +14,9 @@ xautolock -time 9 -locker slock &
 # bspc monitor -d     
 bspc monitor -d     
 
+# super + {h,j,k,l} can focus on floating window
+bspc config directional_focus_tightness low
+
 bspc config top_padding         20
 bspc config border_width        1
 bspc config window_gap          0

@@ -22,6 +22,10 @@ super + w
 ctrl + alt + l
 	slock
 
+# hide
+ctrl + alt + h
+	/bin/hide
+
 # logout
 super + alt + shift + q
 	/bin/logout
