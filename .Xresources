@@ -39,6 +39,8 @@ xterm*VT100.Translations: #override \
   Ctrl Shift <Key> K: scroll-back(1) \n\
   Ctrl Shift <Key> J: scroll-forw(1)
 
+! https://gist.github.com/Lusori0/40b1eb900495470274d7fc460cc6a5ac
+
 *.foreground:   #C0C0C0
 *.background:   #101010
 ! black/dark-gray
