@@ -43,7 +43,6 @@ filetype plugin indent on                               " all in one line
 call plug#begin('~/.vim/plugged')
 Plug 'dbb/vim-gummybears-colorscheme'
 Plug 'sheerun/vim-polyglot'                             " mandatory
-Plug 'majutsushi/tagbar'                                " sudo xbps-install ctags
 Plug 'Raimondi/delimitMate'                             " jump c-g g or just repeat the action
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'henrik/vim-indexed-search'
@@ -54,16 +53,19 @@ Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-commentary'
 Plug 'jeetsukumaran/vim-buffergator'                    " leader-b for for buffer leader-t for tab
-" Plug 'Yggdroot/indentLine'                              " need expandtab to make it works
-" Plug 'ivalkeen/vim-simpledb'
-Plug 'ap/vim-css-color'
-" Plug 'valloric/matchtagalways'
-Plug 'captbaritone/better-indent-support-for-php-with-html'
+Plug 'junegunn/goyo.vim'
 Plug 'kana/vim-textobj-user'
 Plug 'kana/vim-textobj-entire'
 Plug 'kana/vim-textobj-function'
 Plug 'vim-scripts/argtextobj.vim'
 Plug 'vim-scripts/loremipsum'
+" Plug 'majutsushi/tagbar'                                " sudo xbps-install ctags
+" Plug 'preservim/nerdtree'
+" Plug 'Yggdroot/indentLine'                              " need expandtab to make it works
+" Plug 'ivalkeen/vim-simpledb'
+" Plug 'valloric/matchtagalways'
+Plug 'ap/vim-css-color'
+Plug 'captbaritone/better-indent-support-for-php-with-html'
 call plug#end()
 
 let mapleader = "\<Space>"
@@ -144,6 +146,7 @@ nnoremap <silent><leader>f :e .<CR>
 nnoremap <silent><leader>F :e ~/<CR>
 nnoremap <leader>e :e<Space>
 nnoremap <leader>E :e <C-R>=expand("%:p:h") . "/" <CR>
+nnoremap <silent><leader>G :Goyo<CR>
 
 " clipboard install vim-gtk
 nnoremap gy "+y
@@ -161,8 +164,9 @@ nnoremap <silent> <C-u> :call comfortable_motion#flick(-50)<CR>
 nnoremap <silent> <C-f> :call comfortable_motion#flick(100)<CR>
 nnoremap <silent> <C-b> :call comfortable_motion#flick(-100)<CR>
 
-" tagbar
+" tagbar and nerdtree
 nnoremap <F8> :TagbarToggle<CR>
+nnoremap <C-n> :NERDTreeToggle<CR>
 
 " move between tags
 runtime! macros/matchit.vim
