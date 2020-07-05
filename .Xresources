@@ -4,33 +4,33 @@ Xft.hinting: true
 Xft.hintstyle: hintslight
 Xft.rgba: rgb
 Xft.lcdfilter: lcddefault
-xterm*termName: xterm-256color
+*termName: xterm-256color
 
 ! Use a truetype font and size.
 ! xterm*faceName: DejaVu Sans Mono:style=Book
 ! xterm*faceName: DejaVuSansMono Nerd Font Mono:style=Book
 ! xterm*faceName: RobotoMono Nerd Font Mono:style=Regular
 ! xterm*faceName: Cousine Nerd Font Mono:style=Regular
-xterm*faceName: FiraCode Nerd Font Mono:style=Regular
+*faceName: FiraCode Nerd Font Mono:style=Regular
 ! xterm*faceName: Hack Nerd Font Mono:style=Regular
 ! xterm*faceName: JetBrainsMono Nerd Font Mono:style=Regular
 ! xterm*faceName: MesloLGS Nerd Font Mono:style=Regular
-xterm*faceSize: 12
-xterm*renderFont: true
+*faceSize: 12
+*renderFont: true
 
 ! Only select text
-xterm*highlightSelection: true
+*highlightSelection: true
 ! Remove trailing spaces
-xterm*trimSelection: true
+*trimSelection: true
 ! By default, 1024 lines are saved.
-XTerm.vt100.saveLines: 4096
+.vt100.saveLines: 4096
 ! Cursor color is always the color of the foreground,
-xterm*cursorColor: *XtDefaultForeground
+*cursorColor: *XtDefaultForeground
 ! The definition of a "word" depends on the character class resource
-xterm*charClass: 33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48
+*charClass: 33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48
 
 ! Copy paste clipboard & increase and decrease font
-xterm*VT100.Translations: #override \
+*VT100.Translations: #override \
   Ctrl Shift <Key> V: insert-selection(CLIPBOARD) \n\
   Ctrl Shift <Key> C: copy-selection(CLIPBOARD) \n\
   Ctrl <Key> minus: smaller-vt-font() \n\
@@ -66,4 +66,4 @@ xterm*VT100.Translations: #override \
 *.color14:      #74C3E4
 ! gray/white
 *.color7:       #808080
-*.color15: #C0C0C0
+*.color15:			#C0C0C0
