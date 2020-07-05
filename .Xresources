@@ -1,11 +1,12 @@
+! Better font rendering
 Xft.autohint: 1
 Xft.antialias: 1
 Xft.hinting: true
 Xft.hintstyle: hintslight
 Xft.rgba: rgb
 Xft.lcdfilter: lcddefault
-*termName: xterm-256color
 
+*termName: xterm-256color
 ! Use a truetype font and size.
 ! xterm*faceName: DejaVu Sans Mono:style=Book
 ! xterm*faceName: DejaVuSansMono Nerd Font Mono:style=Book
