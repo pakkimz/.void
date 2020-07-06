@@ -82,6 +82,9 @@ colorscheme gummybears
 " 'g+o' last edited, 'g+i' for last insert
 nnoremap ge `.
 
+" make Y yank to end of line (like D or C)
+nnoremap Y y$
+
 " say Nop for q and Q
 noremap q <Nop>
 noremap Q <Nop>
@@ -148,9 +151,9 @@ nnoremap <leader>e :e<Space>
 nnoremap <leader>E :e <C-R>=expand("%:p:h") . "/" <CR>
 nnoremap <silent><leader>G :Goyo<CR>
 
-" clipboard install vim-gtk
+" clipboard install vim-gtk or alias vim-x11
 nnoremap gy "+y
-nnoremap gY "+Y
+nnoremap gY "+y$
 vnoremap gy "+y
 nnoremap gd "+d
 nnoremap gD "+D
