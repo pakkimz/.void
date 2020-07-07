@@ -109,10 +109,6 @@ nnoremap ]s a<space><esc>
 vnoremap < <gv
 vnoremap > >gv
 
-" move the beginning and end of line
-noremap B ^
-noremap E g_
-
 " paste multiple lines multiple times with simple ppppp
 vnoremap <silent> y y`]
 vnoremap <silent> p p`]
