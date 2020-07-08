@@ -155,6 +155,7 @@ nnoremap gd "+d
 nnoremap gD "+D
 vnoremap gd "+d
 nnoremap gp "+p
+nnoremap gP "+P
 vnoremap gp "+p
 
 " don't scroll too fast
