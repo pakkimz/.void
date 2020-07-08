@@ -1,5 +1,5 @@
-set termguicolors                                       " enable true colors support, disable it when use solarized
 set nocompatible
+set termguicolors                                       " enable true colors support
 set synmaxcol=128                                       " syntax coloring lines that are too long just slows down the world
 set t_Co=256                                            " enable 256 color
 set t_ut=                                               " disbale background color erase (BCE)
@@ -33,7 +33,7 @@ set undodir^=~/.vim/tmp/undo//
 set directory=~/.vim/tmp/swap//
 set backupdir=~/.vim/tmp/backup//
 set dictionary=/usr/share/dict/words
-set listchars=tab:→\ ,eol:↲                             " unicode for → = u2192, ↲ = u21b2. set list display it
+set listchars=tab:→\ ,eol:↲                             " unicode for → = u2192, ↲ = u21b2. set list to display it
 
 syntax on
 syntax sync minlines=256
