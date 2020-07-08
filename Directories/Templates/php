@@ -1,0 +1,4 @@
+sudo chown -R $USER:$USER /var/www
+
+"" Permission denied upload gambar ""
+chmod a+rwxt img
