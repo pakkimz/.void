@@ -71,11 +71,13 @@ call plug#end()
 let mapleader = "\<Space>"
 let delimitMate_expand_cr = 1
 let delimitMate_expand_space = 1
-let g:tagbar_sort = 0                                   " order tags based on file order, don't sort alphabetically
 let g:move_map_keys = 0                                 " disable other keys vim-move and just use my mapping below
 let g:comfortable_motion_no_default_key_mappings = 1    " disable default mapping
 let g:buffergator_viewport_split_policy = "B"
 let g:buffergator_split_size = 10
+let g:tagbar_sort = 0                                   " order tags based on file order, don't sort alphabetically
+let g:tagbar_width=25
+let g:NERDTreeWinSize=25
 
 colorscheme gummybears
 
