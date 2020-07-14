@@ -4,6 +4,7 @@ set synmaxcol=128                                       " syntax coloring lines 
 set t_Co=256                                            " enable 256 color
 set t_ut=                                               " disbale background color erase (BCE)
 set re=1                                                " fixes slow speed due to syntax highlighting
+set updatetime=50
 set number
 set noshowmode                                          " hide the insert status
 set showcmd                                             " showing command history
@@ -16,6 +17,7 @@ set softtabstop=2
 set shiftwidth=2
 set textwidth=106
 set autoindent
+set smartindent
 set mouse=a
 set ttymouse=xterm2                                     " resize split with mouse
 set wildmenu
@@ -33,6 +35,7 @@ set undodir^=~/.vim/tmp/undo//
 set directory=~/.vim/tmp/swap//
 set backupdir=~/.vim/tmp/backup//
 set dictionary=/usr/share/dict/words
+set backspace=indent,eol,start													" set backspace to delete normally
 set listchars=tab:→\ ,eol:↲                             " unicode for → = u2192, ↲ = u21b2. set list to display it
 
 syntax on
@@ -59,8 +62,8 @@ Plug 'kana/vim-textobj-entire'
 Plug 'kana/vim-textobj-function'
 Plug 'vim-scripts/argtextobj.vim'
 Plug 'vim-scripts/loremipsum'
+Plug 'preservim/nerdtree'
 " Plug 'majutsushi/tagbar'                                " sudo xbps-install ctags
-" Plug 'preservim/nerdtree'
 " Plug 'Yggdroot/indentLine'                              " need expandtab to make it works
 " Plug 'ivalkeen/vim-simpledb'
 " Plug 'valloric/matchtagalways'
