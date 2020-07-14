@@ -2,3 +2,11 @@ sudo chown -R $USER:$USER /var/www
 
 "" Permission denied upload gambar ""
 chmod a+rwxt img
+
+--------------------------------------
+********** error install mpdf **********
+--------------------------------------
+Using Manjaro(Arch) Linux:
+$ sudo pacman -S php-gd
+In file /etc/php/php-ini, add the line:
+extension=gd.so
