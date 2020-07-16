@@ -37,6 +37,7 @@ set backupdir=~/.vim/tmp/backup//
 set dictionary=/usr/share/dict/words
 set backspace=indent,eol,start													" set backspace to delete normally
 set listchars=tab:→\ ,eol:↲                             " unicode for → = u2192, ↲ = u21b2. set list to display it
+set hidden
 
 syntax on
 syntax sync minlines=256
@@ -50,18 +51,19 @@ Plug 'Raimondi/delimitMate'                             " jump c-g g or just rep
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'henrik/vim-indexed-search'
 Plug 'matze/vim-move'
-Plug 'tpope/vim-surround'
-Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-eunuch'
+Plug 'tpope/vim-ragtag'
+Plug 'tpope/vim-repeat'																	" ctrl-X spaces or enter in html
+Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-commentary'
-Plug 'jeetsukumaran/vim-buffergator'                    " leader-b for for buffer leader-t for tab
-Plug 'junegunn/goyo.vim'
 Plug 'kana/vim-textobj-user'
 Plug 'kana/vim-textobj-entire'
 Plug 'kana/vim-textobj-function'
 Plug 'vim-scripts/argtextobj.vim'
 Plug 'vim-scripts/loremipsum'
+Plug 'jeetsukumaran/vim-buffergator'                    " leader-b for for buffer leader-t for tab
+Plug 'junegunn/goyo.vim'
 Plug 'preservim/nerdtree'
 " Plug 'majutsushi/tagbar'                                " sudo xbps-install ctags
 " Plug 'Yggdroot/indentLine'                              " need expandtab to make it works
