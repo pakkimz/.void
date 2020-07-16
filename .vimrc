@@ -37,7 +37,7 @@ set backupdir=~/.vim/tmp/backup//
 set dictionary=/usr/share/dict/words
 set backspace=indent,eol,start													" set backspace to delete normally
 set listchars=tab:→\ ,eol:↲                             " unicode for → = u2192, ↲ = u21b2. set list to display it
-set hidden
+set hidden																							" moving buffer without saving it
 
 syntax on
 syntax sync minlines=256
