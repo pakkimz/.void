@@ -12,7 +12,7 @@ super + space
 
 # program pcman
 super + e
-	pcmanfm
+	spacefm
 
 # program SeaMonkey
 super + w
