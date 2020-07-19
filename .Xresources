@@ -20,9 +20,9 @@ Xft.lcdfilter: lcddefault
 *renderFont: true
 
 ! Blink cursor
-*cursorBlink: true
-*cursorOffTime: 1000
-*cursorOnTime: 1000
+! *cursorBlink: true
+! *cursorOffTime: 1000
+! *cursorOnTime: 1000
 ! *pointerColor: white
 ! *pointerColorBackground: black
 ! *cursorColor: yellow
