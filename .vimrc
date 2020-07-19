@@ -84,6 +84,11 @@ let g:tagbar_sort = 0                                   " order tags based on fi
 let g:tagbar_width=25
 let g:NERDTreeWinSize=25
 
+" change cursor shape in different mode
+let &t_SI = "\<Esc>[6 q"
+let &t_SR = "\<Esc>[4 q"
+let &t_EI = "\<Esc>[2 q"
+
 colorscheme gummybears
 
 " 'g+o' last edited, 'g+i' for last insert

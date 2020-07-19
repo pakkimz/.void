@@ -19,14 +19,23 @@ Xft.lcdfilter: lcddefault
 *faceSize: 12
 *renderFont: true
 
+! Blink cursor
+*cursorBlink: true
+*cursorOffTime: 900
+*cursorOnTime: 900
+! *pointerColor: white
+! *pointerColorBackground: black
+! *cursorColor: yellow
+
+! Cursor color is always the color of the foreground,
+! *cursorColor: *XtDefaultForeground
+
 ! Only select text
 *highlightSelection: true
 ! Remove trailing spaces
 *trimSelection: true
 ! By default, 1024 lines are saved.
-.vt100.saveLines: 4096
-! Cursor color is always the color of the foreground,
-*cursorColor: *XtDefaultForeground
+*VT100.saveLines: 4096
 ! The definition of a "word" depends on the character class resource
 *charClass: 33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48
 
