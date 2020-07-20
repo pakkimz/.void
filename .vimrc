@@ -91,9 +91,6 @@ let &t_EI = "\<Esc>[2 q"
 
 colorscheme gummybears
 
-" 'g+o' last edited, 'g+i' for last insert
-nnoremap ge `.
-
 " make Y yank to end of line (like D or C)
 nnoremap Y y$
 
