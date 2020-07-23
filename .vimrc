@@ -94,6 +94,9 @@ colorscheme gummybears
 " make Y yank to end of line (like D or C)
 nnoremap Y y$
 
+" please use leader K to see man page
+nnoremap K <Nop>
+
 " say Nop for q and Q
 noremap q <Nop>
 noremap Q <Nop>
@@ -179,6 +182,8 @@ nnoremap <C-n> :NERDTreeToggle<CR>
 
 " move between tags
 runtime! macros/matchit.vim
+" man page, use leader K to open it or :Man 3 {option} in command mode
+runtime! ftplugin/man.vim
 " plugin vim-repeat adding support to related plugins
 silent! call repeat#set("\<Plug>MyWonderfulMap", v:count)
 " resize splits when the window is resized
