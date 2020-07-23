@@ -25,11 +25,10 @@ Xft.lcdfilter: lcddefault
 ! *cursorOnTime: 1000
 ! *pointerColor: white
 ! *pointerColorBackground: black
-! *cursorColor: yellow
+*cursorColor: #ff2400
 
 ! Cursor color is always the color of the foreground,
 ! *cursorColor: *XtDefaultForeground
-*cursorColor: #ff2400
 
 ! Only select text
 *highlightSelection: true
