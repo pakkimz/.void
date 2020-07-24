@@ -127,16 +127,16 @@ vnoremap <silent> p p`]
 nnoremap <silent> p p`]
 
 " moving around in command mode, ctrl+b & ctrl+e move beginning and end
-cnoremap <C-h> <left>
-cnoremap <C-l> <right>
-cnoremap <A-h> <S-Left>
-cnoremap <A-l> <S-Right>
+cnoremap <A-h> <left>
+cnoremap <A-l> <right>
+cnoremap <A-k> <S-Left>
+cnoremap <A-j> <S-Right>
 
 " moving around in insert mode
-inoremap <C-h> <left>
-inoremap <C-l> <right>
-inoremap <A-h> <S-Left>
-inoremap <A-l> <S-Right>
+inoremap <A-h> <left>
+inoremap <A-l> <right>
+inoremap <A-k> <S-Left>
+inoremap <A-j> <S-Right>
 
 " esc stuffs
 inoremap <C-space> <Esc>`^
