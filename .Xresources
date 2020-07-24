@@ -25,7 +25,8 @@ Xft.lcdfilter: lcddefault
 ! *cursorOnTime: 1000
 ! *pointerColor: white
 ! *pointerColorBackground: black
-*cursorColor: #ff2400
+! *cursorColor: #ff2400
+*cursorColor: #FF1CAE
 
 ! Cursor color is always the color of the foreground,
 ! *cursorColor: *XtDefaultForeground
