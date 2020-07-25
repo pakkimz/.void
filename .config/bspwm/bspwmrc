@@ -30,7 +30,7 @@ bspc rule -a Zathura state=tiled
 bspc rule -a Pcmanfm desktop='^3'follow=on
 bspc rule -a Spacefm desktop='^3'follow=on
 bspc rule -a Gimp desktop='^5' state=floating follow=on
-bspc rule -a Dia desktop='^4'
+bspc rule -a Dia desktop='^4' follow=on
 bspc rule -a Chromium desktop='^2'follow=on
 bspc rule -a SeaMonkey desktop='^2'follow=on
 bspc rule -a SeaMonkey:Download state=floating
