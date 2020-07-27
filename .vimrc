@@ -91,7 +91,6 @@ let &t_SI = "\<Esc>[6 q"
 let &t_SR = "\<Esc>[4 q"
 let &t_EI = "\<Esc>[2 q"
 
-" fav scheme
 colorscheme gummybears
 
 " '., gi, gv, go
@@ -148,6 +147,7 @@ nnoremap <silent><leader>Q :q!<CR>
 nnoremap <silent><leader>r :bd<CR>
 nnoremap <silent><leader>R :bw!<CR>
 nnoremap <silent><leader>o :%bd\|e#\|bd#<CR>
+nnoremap <silent><leader>O :%bd!\|e#\|bd!#<CR>
 nnoremap <silent><leader>f :e .<CR>
 nnoremap <silent><leader>F :e ~/<CR>
 nnoremap <leader>e :e<Space>
