@@ -47,8 +47,8 @@ filetype plugin indent on                               " all in one line
 call plug#begin('~/.vim/plugged')
 Plug 'dbb/vim-gummybears-colorscheme'
 Plug 'sheerun/vim-polyglot'                             " mandatory
-Plug 'preservim/nerdtree'
 Plug 'Raimondi/delimitMate'                             " jump c-g g or just repeat the action
+Plug 'preservim/nerdtree'
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'jeetsukumaran/vim-buffergator'                    " leader-b for for buffer leader-t for tab
 Plug 'machakann/vim-highlightedyank'
