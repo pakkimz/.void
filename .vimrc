@@ -47,8 +47,11 @@ filetype plugin indent on                               " all in one line
 call plug#begin('~/.vim/plugged')
 Plug 'dbb/vim-gummybears-colorscheme'
 Plug 'sheerun/vim-polyglot'                             " mandatory
+Plug 'preservim/nerdtree'
 Plug 'Raimondi/delimitMate'                             " jump c-g g or just repeat the action
 Plug 'yuttie/comfortable-motion.vim'
+Plug 'jeetsukumaran/vim-buffergator'                    " leader-b for for buffer leader-t for tab
+Plug 'machakann/vim-highlightedyank'
 Plug 'henrik/vim-indexed-search'
 Plug 'matze/vim-move'
 Plug 'tpope/vim-eunuch'
@@ -62,8 +65,6 @@ Plug 'kana/vim-textobj-entire'
 Plug 'kana/vim-textobj-function'
 Plug 'vim-scripts/argtextobj.vim'
 Plug 'vim-scripts/loremipsum'
-Plug 'jeetsukumaran/vim-buffergator'                    " leader-b for for buffer leader-t for tab
-Plug 'preservim/nerdtree'
 " Plug 'majutsushi/tagbar'                                " sudo xbps-install ctags
 " Plug 'junegunn/goyo.vim'
 " Plug 'Yggdroot/indentLine'                              " need expandtab to make it works
@@ -83,13 +84,18 @@ let g:buffergator_split_size = 10
 let g:tagbar_sort = 0                                   " order tags based on file order, don't sort alphabetically
 let g:tagbar_width=25
 let g:NERDTreeWinSize=25
+let g:highlightedyank_highlight_duration = 100
 
 " change cursor shape in different mode
 let &t_SI = "\<Esc>[6 q"
 let &t_SR = "\<Esc>[4 q"
 let &t_EI = "\<Esc>[2 q"
 
+" fav scheme
 colorscheme gummybears
+
+" '., gi, gv, go
+nnoremap g. `.
 
 " make Y yank to end of line (like D or C)
 nnoremap Y y$
@@ -126,30 +132,12 @@ vnoremap <silent> y y`]
 vnoremap <silent> p p`]
 nnoremap <silent> p p`]
 
-" moving around in command mode, ctrl+b & ctrl+e move beginning and end
-cnoremap <A-h> <left>
-cnoremap <A-l> <right>
-cnoremap <A-k> <S-Left>
-cnoremap <A-j> <S-Right>
-
-" moving around in insert mode
-inoremap <A-h> <left>
-inoremap <A-l> <right>
-inoremap <A-k> <S-Left>
-inoremap <A-j> <S-Right>
-
 " esc stuffs
 inoremap <C-space> <Esc>`^
 vnoremap <C-space> <Esc>gV
 onoremap <C-space> <Esc>
 cnoremap <C-space> <C-c>
 nnoremap <C-space> <Esc>:noh<CR>
-
-" vim-move mapping
-vmap <C-j> <Plug>MoveBlockDown
-vmap <C-k> <Plug>MoveBlockUp
-nmap <C-j> <Plug>MoveLineDown
-nmap <C-k> <Plug>MoveLineUp
 
 " play with leader
 nnoremap <silent><leader>w :w!<CR>
@@ -159,6 +147,7 @@ nnoremap <silent><leader>q :q<CR>
 nnoremap <silent><leader>Q :q!<CR>
 nnoremap <silent><leader>r :bd<CR>
 nnoremap <silent><leader>R :bw!<CR>
+nnoremap <silent><leader>o :%bd\|e#\|bd#<CR>
 nnoremap <silent><leader>f :e .<CR>
 nnoremap <silent><leader>F :e ~/<CR>
 nnoremap <leader>e :e<Space>
@@ -175,6 +164,22 @@ vnoremap gd "+d
 nnoremap gp "+p
 nnoremap gP "+P
 vnoremap gp "+p
+
+" moving around in insert & command mode, ctrl+b & ctrl+e move beginning and end
+inoremap <A-h> <left>
+inoremap <A-l> <right>
+inoremap <A-k> <S-Left>
+inoremap <A-j> <S-Right>
+cnoremap <A-h> <left>
+cnoremap <A-l> <right>
+cnoremap <A-k> <S-Left>
+cnoremap <A-j> <S-Right>
+
+" vim-move mapping
+vmap <C-j> <Plug>MoveBlockDown
+vmap <C-k> <Plug>MoveBlockUp
+nmap <C-j> <Plug>MoveLineDown
+nmap <C-k> <Plug>MoveLineUp
 
 " don't scroll too fast
 nnoremap <silent> <C-d> :call comfortable_motion#flick(50)<CR>
