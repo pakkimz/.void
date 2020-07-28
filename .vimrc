@@ -11,7 +11,7 @@ set showcmd                                             " showing command histor
 set matchtime=3
 set ttimeoutlen=10                                      " faster sequance esc+O
 set ttyfast
-set ttyscroll=3
+" set ttyscroll=3
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
@@ -19,7 +19,7 @@ set textwidth=106
 set autoindent
 set smartindent
 set mouse=a
-set ttymouse=xterm2                                     " resize split with mouse
+" set ttymouse=xterm2                                     " resize split with mouse
 set wildmenu
 set nostartofline                                       " sometimes cursor jumping back
 set noexpandtab
@@ -38,6 +38,7 @@ set dictionary=/usr/share/dict/words
 set backspace=indent,eol,start													" set backspace to delete normally
 set listchars=tab:→\ ,eol:↲                             " unicode for → = u2192, ↲ = u21b2. set list to display it
 set hidden																							" moving buffer without saving it
+set laststatus=1
 
 syntax on
 syntax sync minlines=256
