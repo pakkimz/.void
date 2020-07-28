@@ -8,6 +8,7 @@ xsetroot -cursor_name left_ptr &
 unclutter &
 xautolock -time 9 -locker slock &
 # redshift &
+pgrep bspswallow || bspswallow &
 
 # bspc monitor -d I II III IV V VI VII VIII IX X
 # bspc monitor -d 1 2 3 4 5

@@ -1,5 +1,5 @@
-# If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+# If you come from bash you might have to change your $PATH.
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/house/.oh-my-zsh"
@@ -102,16 +102,15 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# alias mpv="devour mpv"
+# alias mplayer="devour mplayer"
+# alias sxiv="devour sxiv"
+# alias zathura="devour zathura"
+
 # alias vi='gvim -v'
 # alias vim='gvim -v'
 alias vi=vim-x11
 alias vim=vim-x11
-
-alias mpv="devour mpv"
-alias mplayer="devour mplayer"
-
-alias sxiv="devour sxiv"
-alias zathura="devour zathura"
 
 alias config='/usr/bin/git --git-dir=$HOME/.void --work-tree=$HOME'
 alias connect='sudo wpa_supplicant -B -i wlp2s0b1 -c /etc/wpa_supplicant/wpa_supplicant.conf'
