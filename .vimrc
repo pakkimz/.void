@@ -70,7 +70,7 @@ Plug 'vim-scripts/loremipsum'
 " Plug 'junegunn/goyo.vim'
 " Plug 'Yggdroot/indentLine'                              " need expandtab to make it works
 " Plug 'ivalkeen/vim-simpledb'
-" Plug 'valloric/matchtagalways'
+Plug 'valloric/matchtagalways'
 Plug 'ap/vim-css-color'
 Plug 'captbaritone/better-indent-support-for-php-with-html'
 call plug#end()
