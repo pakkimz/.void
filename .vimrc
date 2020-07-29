@@ -50,6 +50,7 @@ Plug 'dbb/vim-gummybears-colorscheme'
 Plug 'sheerun/vim-polyglot'                             " mandatory
 Plug 'Raimondi/delimitMate'                             " jump c-g g or just repeat the action
 Plug 'preservim/nerdtree'
+Plug 'rking/ag.vim'
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'jeetsukumaran/vim-buffergator'                    " leader-b for for buffer leader-t for tab
 Plug 'machakann/vim-highlightedyank'
@@ -86,6 +87,7 @@ let g:tagbar_sort = 0                                   " order tags based on fi
 let g:tagbar_width=25
 let g:NERDTreeWinSize=25
 let g:highlightedyank_highlight_duration = 100
+let g:ag_mapping_message = 0
 
 " change cursor shape in different mode
 let &t_SI = "\<Esc>[6 q"
@@ -153,7 +155,8 @@ nnoremap <silent><leader>f :e .<CR>
 nnoremap <silent><leader>F :e ~/<CR>
 nnoremap <leader>e :e<Space>
 nnoremap <leader>E :e <C-R>=expand("%:p:h") . "/" <CR>
-nnoremap <silent><leader>G :Goyo<CR>
+nnoremap <leader>G :Goyo<CR>
+nnoremap <leader>A :Ag!<space>
 
 " clipboard install vim-gtk or alias vim-x11
 nnoremap gy "+y
