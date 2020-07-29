@@ -71,7 +71,7 @@ Plug 'vim-scripts/loremipsum'
 " Plug 'junegunn/goyo.vim'
 " Plug 'Yggdroot/indentLine'                              " need expandtab to make it works
 " Plug 'ivalkeen/vim-simpledb'
-Plug 'valloric/matchtagalways'
+" Plug 'valloric/matchtagalways'
 Plug 'ap/vim-css-color'
 Plug 'captbaritone/better-indent-support-for-php-with-html'
 call plug#end()
@@ -118,8 +118,8 @@ inoremap <expr> <C-k> ((pumvisible())?("\<C-p>"):("\<C-x><c-p>"))
 inoremap <expr> <C-j> ((pumvisible())?("\<C-n>"):("\<C-x><c-n>"))
 
 " intuitive moving buffer
-nnoremap <C-l> :bnext<CR>
-nnoremap <BS> :bprevious<CR>
+nnoremap <silent> <C-l> :bnext<CR>
+nnoremap <silent> <BS> :bprevious<CR>
 
 " add one space
 nnoremap [s i<space><esc>
@@ -155,8 +155,8 @@ nnoremap <silent><leader>f :e .<CR>
 nnoremap <silent><leader>F :e ~/<CR>
 nnoremap <leader>e :e<Space>
 nnoremap <leader>E :e <C-R>=expand("%:p:h") . "/" <CR>
-nnoremap <leader>G :Goyo<CR>
 nnoremap <leader>A :Ag!<space>
+nnoremap <silent><leader>G :Goyo<CR>
 
 " clipboard install vim-gtk or alias vim-x11
 nnoremap gy "+y
@@ -192,8 +192,8 @@ nnoremap <silent> <C-f> :call comfortable_motion#flick(100)<CR>
 nnoremap <silent> <C-b> :call comfortable_motion#flick(-100)<CR>
 
 " tagbar and nerdtree
-nnoremap <F8> :TagbarToggle<CR>
-nnoremap <C-n> :NERDTreeToggle<CR>
+nnoremap <silent> <F8> :TagbarToggle<CR>
+nnoremap <silent> <C-n> :NERDTreeToggle<CR>
 
 " move between tags
 runtime! macros/matchit.vim
