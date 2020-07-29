@@ -117,7 +117,7 @@ inoremap <expr> <C-j> ((pumvisible())?("\<C-n>"):("\<C-x><c-n>"))
 
 " intuitive moving buffer
 nnoremap <C-l> :bnext<CR>
-nnoremap <C-h> :bprevious<CR>
+nnoremap <BS> :bprevious<CR>
 
 " add one space
 nnoremap [s i<space><esc>
