@@ -1,8 +1,6 @@
 " set runtimepath^=/.vim runtimepath+=~/.vim/
 " let &packpath=&runtimepath
 " source ~/.vimrc
-source $HOME/.config/nvim/general/settings.vim
-source $HOME/.config/nvim/keys/mappings.vim
 
 syntax on
 syntax sync minlines=256
@@ -40,4 +38,5 @@ Plug 'ap/vim-css-color'
 Plug 'captbaritone/better-indent-support-for-php-with-html'
 call plug#end()
 
-colorscheme gummybears
+source $HOME/.config/nvim/general/settings.vim
+source $HOME/.config/nvim/keys/mappings.vim
