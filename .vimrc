@@ -11,7 +11,7 @@ set showcmd                                             " showing command histor
 set matchtime=3
 set ttimeoutlen=10                                      " faster sequance esc+O
 set ttyfast
-" set ttyscroll=3
+set ttyscroll=3
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
@@ -19,7 +19,7 @@ set textwidth=106
 set autoindent
 set smartindent
 set mouse=a
-" set ttymouse=xterm2                                     " resize split with mouse
+set ttymouse=xterm2                                     " resize split with mouse
 set wildmenu
 set nostartofline                                       " sometimes cursor jumping back
 set noexpandtab
