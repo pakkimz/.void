@@ -40,3 +40,4 @@ call plug#end()
 
 source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/keys/mappings.vim
+source $HOME/.config/nvim/commands/commands.vim
