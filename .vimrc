@@ -26,6 +26,8 @@ set noexpandtab
 set hlsearch
 set autowrite		                                        " automatically save before commands like :next and :make
 set complete-=i                                         " get rid system include in auto completion
+set pumheight=10																				" makes popup menu smaller
+set laststatus=1
 set undofile
 set history=1000
 set backup
@@ -38,7 +40,6 @@ set dictionary=/usr/share/dict/words
 set backspace=indent,eol,start													" set backspace to delete normally
 set listchars=tab:→\ ,eol:↲                             " unicode for → = u2192, ↲ = u21b2. set list to display it
 set hidden																							" moving buffer without saving it
-set laststatus=1
 
 syntax on
 syntax sync minlines=256
