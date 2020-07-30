@@ -18,10 +18,13 @@ set wildmenu
 set nostartofline                                       " sometimes cursor jumping back
 set noexpandtab
 set hlsearch
+set confirm																							" ask to save buffer
 set autowrite		                                        " automatically save before commands like :next and :make
 set complete-=i                                         " get rid system include in auto completion
 set pumheight=10																				" makes popup menu smaller
 set laststatus=1
+set scrolloff=5
+set sidescrolloff=5
 set undofile
 set history=1000
 set backup

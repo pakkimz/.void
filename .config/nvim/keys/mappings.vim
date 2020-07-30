@@ -20,12 +20,16 @@ inoremap <expr> <C-k> ((pumvisible())?("\<C-p>"):("\<C-x><c-p>"))
 inoremap <expr> <C-j> ((pumvisible())?("\<C-n>"):("\<C-x><c-n>"))
 
 " intuitive moving buffer
-nnoremap <silent> <C-l> :bnext<CR>
-nnoremap <silent> <BS> :bprevious<CR>
+nnoremap <C-l> :bnext<CR>
+nnoremap <BS> :bprevious<CR>
 
 " add one space
 nnoremap [s i<space><esc>
 nnoremap ]s a<space><esc>
+
+"easier horizontal scrolling
+nnoremap zl ZL
+nnoremap zh ZH
 
 " re-select visual block after indenting
 vnoremap < <gv
