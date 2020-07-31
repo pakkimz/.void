@@ -46,11 +46,12 @@ let g:comfortable_motion_no_default_key_mappings = 1    " disable default mappin
 let g:buffergator_viewport_split_policy = "B"
 let g:buffergator_split_size = 10
 let g:tagbar_sort = 0                                   " order tags based on file order, don't sort alphabetically
-let g:tagbar_width=25
-let g:NERDTreeWinSize=25
+let g:tagbar_width = 25
+let g:NERDTreeWinSize = 25
 let g:NERDTreeChDirMode = 2															" autochange directory from nerdtree
 let g:highlightedyank_highlight_duration = 100
 let g:ag_mapping_message = 0
+let g:ag_highlight = 1
 
 " change cursor shape in different mode
 let &t_SI = "\<Esc>[6 q"
