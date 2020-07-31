@@ -52,7 +52,7 @@ nnoremap <silent><leader>w :w!<CR>
 nnoremap <silent><leader>W :wa!<CR>
 nnoremap <silent><leader>x :x<CR>
 nnoremap <silent><leader>q :q<CR>
-nnoremap <silent><leader>Q :q!<CR>
+nnoremap <silent><leader>Q :qa!<CR>
 nnoremap <silent><leader>r :bd<CR>
 nnoremap <silent><leader>R :bw!<CR>
 nnoremap <silent><leader>o :%bd\|e#\|bd#<CR>
