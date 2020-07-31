@@ -3,7 +3,7 @@ set termguicolors                                       " enable true colors sup
 set synmaxcol=128                                       " syntax coloring lines that are too long just slows down the world
 set t_Co=256                                            " enable 256 color
 set t_ut=                                               " disbale background color erase (BCE)
-set re=1                                                " fixes slow speed due to syntax highlighting
+set regexpengine=1																			" fixes slow speed due to syntax highlighting
 set updatetime=50
 set number
 set noshowmode                                          " hide the insert status
