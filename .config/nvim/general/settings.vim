@@ -52,6 +52,9 @@ let g:NERDTreeChDirMode = 2															" autochange directory from nerdtree
 let g:highlightedyank_highlight_duration = 100
 let g:ag_mapping_message = 0
 let g:ag_highlight = 1
+let g:qs_highlight_on_keys = ['f', 'F', 't', 'T']
+let g:qs_lazy_highlight = 1
+let g:qs_max_chars = 106
 
 " change cursor shape in different mode
 let &t_SI = "\<Esc>[6 q"

@@ -16,6 +16,7 @@ Plug 'rking/ag.vim'
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'jeetsukumaran/vim-buffergator'                    " leader-b for for buffer leader-t for tab
 Plug 'machakann/vim-highlightedyank'
+Plug 'unblevable/quick-scope'
 Plug 'henrik/vim-indexed-search'
 Plug 'matze/vim-move'
 Plug 'tpope/vim-eunuch'
