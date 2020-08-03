@@ -39,6 +39,8 @@ Xft.lcdfilter: lcddefault
 *VT100.saveLines: 4096
 ! The definition of a "word" depends on the character class resource
 *charClass: 33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48
+! make alt key works
+*metaSendsEscape: true
 
 ! Copy paste clipboard & increase and decrease font
 *VT100.Translations: #override \
