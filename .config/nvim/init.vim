@@ -20,8 +20,8 @@ Plug 'henrik/vim-indexed-search'
 Plug 'unblevable/quick-scope'
 Plug 'matze/vim-move'
 Plug 'tpope/vim-eunuch'
-Plug 'tpope/vim-ragtag'
-Plug 'tpope/vim-repeat'																	" ctrl-X spaces or enter in html
+Plug 'tpope/vim-ragtag'																	" ctrl-X spaces or enter in html
+Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-commentary'
