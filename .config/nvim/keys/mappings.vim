@@ -47,6 +47,12 @@ onoremap <C-space> <Esc>
 cnoremap <C-space> <C-c>
 nnoremap <C-space> <Esc>:noh<CR>
 
+" increase value resize split defalut 1
+nnoremap <C-w>+ :resize +5<CR>
+nnoremap <C-w>- :resize -5<CR>
+nnoremap <C-w>> :vertical:resize +5<CR>
+nnoremap <C-w>< :vertical:resize -5<CR>
+
 " play with leader
 nnoremap <silent><leader>w :w!<CR>
 nnoremap <silent><leader>W :wa!<CR>
@@ -61,10 +67,10 @@ nnoremap <silent><leader>f :e .<CR>
 nnoremap <silent><leader>F :e ~/<CR>
 nnoremap <leader>e :e<Space>
 nnoremap <leader>E :e <C-R>=expand("%:p:h") . "/" <CR>
+nnoremap <leader>cd :cd %:p:h<CR>:pwd<CR>
 nnoremap <leader>A :Ag!<space>
-nnoremap <silent><leader>G :Goyo<CR>
 
-" clipboard install vim-gtk or alias vim-x11
+" clipboard install vim-gtk or alias vim-x11 or install xsel in neovim
 nnoremap gy "+y
 nnoremap gY "+y$
 vnoremap gy "+y

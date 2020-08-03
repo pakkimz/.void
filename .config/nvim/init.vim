@@ -31,7 +31,6 @@ Plug 'kana/vim-textobj-function'
 Plug 'vim-scripts/argtextobj.vim'
 Plug 'vim-scripts/loremipsum'
 " Plug 'majutsushi/tagbar'                                " sudo xbps-install ctags
-" Plug 'junegunn/goyo.vim'
 " Plug 'Yggdroot/indentLine'                              " need expandtab to make it works
 " Plug 'ivalkeen/vim-simpledb'
 " Plug 'valloric/matchtagalways'
