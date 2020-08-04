@@ -3,7 +3,7 @@
 bspc rule -r "*"
 sxhkd &
 # picom -CGb
-compton -CGb
+compton &
 nitrogen --restore &
 xsetroot -cursor_name left_ptr &
 unclutter &
