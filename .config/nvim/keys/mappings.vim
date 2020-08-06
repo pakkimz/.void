@@ -70,6 +70,9 @@ nnoremap <leader>E :e <C-R>=expand("%:p:h") . "/" <CR>
 nnoremap <leader>cd :cd %:p:h<CR>:pwd<CR>
 nnoremap <leader>A :Ag!<space>
 
+" close buffer in nerdtree open
+nnoremap <silent><leader>d :bp<cr>:bd #<cr>
+
 " clipboard install vim-gtk or alias vim-x11 or install xsel in neovim
 nnoremap gy "+y
 nnoremap gY "+y$

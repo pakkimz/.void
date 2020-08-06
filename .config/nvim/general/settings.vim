@@ -49,7 +49,6 @@ let g:tagbar_sort = 0                                   " order tags based on fi
 let g:tagbar_width = 25
 let g:NERDTreeWinSize = 25
 let g:NERDTreeChDirMode = 2															" autochange directory from nerdtree
-let g:NERDTreeAutoDeleteBuffer = 1
 let g:highlightedyank_highlight_duration = 100
 let g:ag_mapping_message = 0
 let g:ag_highlight = 1
