@@ -30,6 +30,7 @@ Plug 'kana/vim-textobj-entire'
 Plug 'kana/vim-textobj-function'
 Plug 'vim-scripts/argtextobj.vim'
 Plug 'vim-scripts/loremipsum'
+Plug 'jpo/vim-railscasts-theme'
 " Plug 'majutsushi/tagbar'                                " sudo xbps-install ctags
 " Plug 'Yggdroot/indentLine'                              " need expandtab to make it works
 " Plug 'ivalkeen/vim-simpledb'
