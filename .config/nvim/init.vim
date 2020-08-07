@@ -9,6 +9,7 @@ filetype plugin indent on                               " all in one line
 
 call plug#begin('~/.config/nvim/plugged')
 Plug 'pakkimz/vim-gummybears-colorscheme'
+Plug 'jpo/vim-railscasts-theme'
 Plug 'sheerun/vim-polyglot'                             " mandatory
 Plug 'Raimondi/delimitMate'                             " jump c-g g or just repeat the action
 Plug 'preservim/nerdtree'
@@ -30,7 +31,6 @@ Plug 'kana/vim-textobj-entire'
 Plug 'kana/vim-textobj-function'
 Plug 'vim-scripts/argtextobj.vim'
 Plug 'vim-scripts/loremipsum'
-Plug 'jpo/vim-railscasts-theme'
 " Plug 'majutsushi/tagbar'                                " sudo xbps-install ctags
 " Plug 'Yggdroot/indentLine'                              " need expandtab to make it works
 " Plug 'ivalkeen/vim-simpledb'
