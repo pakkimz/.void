@@ -4,9 +4,6 @@ nnoremap g. `.
 " make Y yank to end of line (like D or C)
 nnoremap Y y$
 
-" please use leader K to see man page
-nnoremap K <Nop>
-
 " say Nop for q and Q
 noremap q <Nop>
 noremap Q <Nop>

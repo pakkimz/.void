@@ -1,7 +1,5 @@
 " move between tags
 runtime! macros/matchit.vim
-" man page, use leader K to open it or :Man 3 {option} in command mode
-runtime! ftplugin/man.vim
 " plugin vim-repeat adding support to related plugins
 silent! call repeat#set("\<Plug>MyWonderfulMap", v:count)
 " resize splits when the window is resized
