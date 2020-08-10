@@ -8,9 +8,9 @@ syntax sync minlines=256
 filetype plugin indent on                               " all in one line
 
 call plug#begin('~/.config/nvim/plugged')
-" Plug 'pakkimz/vim-gummybears-colorscheme'
+" Plug 'twerth/ir_black'
 " Plug 'jpo/vim-railscasts-theme'
-Plug 'twerth/ir_black'
+Plug 'pakkimz/vim-gummybears-colorscheme'
 Plug 'sheerun/vim-polyglot'                             " mandatory
 Plug 'Raimondi/delimitMate'                             " jump c-g g or just repeat the action
 Plug 'preservim/nerdtree'
