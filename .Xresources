@@ -55,7 +55,8 @@ Xft.lcdfilter: lcddefault
 ! https://gist.github.com/Lusori0/40b1eb900495470274d7fc460cc6a5ac
 
 *.foreground:   #C0C0C0
-*.background:   #101010
+!*.background:   #101010
+*.background:   #000000
 ! black/dark-gray
 *.color0:       #101010
 *.color8:       #454545
