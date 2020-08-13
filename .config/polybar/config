@@ -35,8 +35,8 @@ background-alt = #444
 ; foreground = ${xrdb:color7:#222}
 foreground = #dfdfdf
 foreground-alt = #555
-primary = #ffb52a
-; primary = #332d29
+; primary = #ffb52a
+primary = #FFFAFA
 secondary = #e60053
 alert = #bd2c40
 
@@ -73,12 +73,12 @@ font-3 = FontAwesome:style:Regular:pixelsize=12;antialias=true;2
 ; font-3 = apel:style:Regular:pixelsize=12;antialias=true;2
 ; font-4 = apem:style:Regular:pixelsize=10;antialias=true;0
 
-modules-left = bspwm wlan
+modules-left = bspwm wlan xwindow
 ; modules-left = bspwm mpd
 ; modules-center = mpd
-modules-center = xwindow
+; modules-center = xwindow
 ; modules-right = filesystem xbacklight alsa pulseaudio xkeyboard memory cpu wlan eth battery temperature date powermenu
-modules-right = temperature xkeyboard cpu filesystem date powermenu
+modules-right = temperature xkeyboard memory cpu filesystem date powermenu
 
 ; tray-position = right
 ; tray-padding = 2
@@ -164,7 +164,8 @@ type = internal/memory
 interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #4bffdc
+; format-underline = #4bffdc
+format-underline = #f90000
 label = %percentage_used%%
 
 [module/wlan]
