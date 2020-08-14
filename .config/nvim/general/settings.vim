@@ -25,6 +25,8 @@ set pumheight=10																				" makes popup menu smaller
 set laststatus=1
 set scrolloff=5
 set sidescrolloff=5
+set splitbelow
+set splitright
 set undofile
 set history=1000
 set backup
