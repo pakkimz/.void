@@ -35,7 +35,6 @@ Plug 'vim-scripts/loremipsum'
 " Plug 'majutsushi/tagbar'                                " sudo xbps-install ctags
 " Plug 'Yggdroot/indentLine'                              " need expandtab to make it works
 " Plug 'ivalkeen/vim-simpledb'
-" Plug 'valloric/matchtagalways'
 Plug 'gregsexton/matchtag'
 Plug 'ap/vim-css-color'
 Plug 'captbaritone/better-indent-support-for-php-with-html'
