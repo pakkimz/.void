@@ -45,10 +45,10 @@ cnoremap <C-space> <C-c>
 nnoremap <C-space> <Esc>:noh<CR>
 
 " increase value resize split defalut 1
-nnoremap <C-w>+ :resize +5<CR>
-nnoremap <C-w>- :resize -5<CR>
-nnoremap <C-w>> :vertical:resize +5<CR>
-nnoremap <C-w>< :vertical:resize -5<CR>
+nnoremap <silent><C-w>+ :resize +5<CR>
+nnoremap <silent><C-w>- :resize -5<CR>
+nnoremap <silent><C-w>> :vertical:resize +5<CR>
+nnoremap <silent><C-w>< :vertical:resize -5<CR>
 
 " play with leader
 nnoremap <silent><leader>w :w!<CR>
