@@ -107,15 +107,20 @@ blacklist-0 = num lock
 
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-format-prefix-underline = ${colors.secondary}
+; format-prefix-underline = ${colors.secondary}
+format-prefix-underline = #EEE9E9
 
 label-layout = %layout%
-label-layout-underline = ${colors.secondary}
+; label-layout-underline = ${colors.secondary}
+label-layout-underline = #EEE9E9
 
 label-indicator-padding = 2
 label-indicator-margin = 1
-label-indicator-background = ${colors.secondary}
-label-indicator-underline = ${colors.secondary}
+; label-indicator-background = ${colors.secondary}
+; label-indicator-underline = ${colors.secondary}
+; label-indicator-background = #CDC9E9
+label-indicator-background = #A52A2A
+label-indicator-underline = #EEE9E9
 
 [module/filesystem]
 type = internal/fs
@@ -156,7 +161,8 @@ type = internal/cpu
 interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #f90000
+; format-underline = #f90000
+format-underline = #CDC9E9
 label = %percentage:2%%
 
 [module/memory]
@@ -165,7 +171,8 @@ interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 ; format-underline = #4bffdc
-format-underline = #f90000
+; format-underline = #f90000
+format-underline = #CDC9E9
 label = %percentage_used%%
 
 [module/wlan]
@@ -221,7 +228,8 @@ time-alt = %H:%M:%S
 
 format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #0a6cf5
+; format-underline = #0a6cf5
+format-underline = #EEE9E9
 
 label = %date% %time%
 
@@ -266,7 +274,8 @@ hwmon-path = /sys/devices/pci0000:00/0000:00:18.3/hwmon/hwmon1/temp1_input
 warn-temperature = 60
 
 format = <ramp> <label>
-format-underline = #f50a4d
+; format-underline = #f50a4d
+format-underline = #EEE9E9
 format-warn = <ramp> <label-warn>
 format-warn-underline = ${self.format-underline}
 
