@@ -23,8 +23,8 @@ set autowrite		                                        " automatically save befo
 set complete-=i                                         " get rid system include in auto completion
 set pumheight=10																				" makes popup menu smaller
 set laststatus=1
-set scrolloff=5
-set sidescrolloff=5
+set scrolloff=2
+set sidescrolloff=2
 set splitbelow
 set splitright
 set undofile
