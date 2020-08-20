@@ -3,6 +3,8 @@ set synmaxcol=128                                       " syntax coloring lines 
 set regexpengine=1																			" fixes slow speed due to syntax highlighting
 set updatetime=50
 set number
+set numberwidth=2
+set linespace=0
 set showcmd                                             " showing command history
 set noshowmode                                          " hide the insert status
 set noruler																							" hide info in bottom of screen
