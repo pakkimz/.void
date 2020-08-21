@@ -42,7 +42,7 @@ set backspace=indent,eol,start													" set backspace to delete normally
 set listchars=tab:→\ ,eol:↲                             " unicode for → = u2192, ↲ = u21b2. set list to display it
 set hidden																							" moving buffer without saving it
 
-let mapleader = "\<Space>"
+let mapleader = ' '
 let delimitMate_expand_cr = 1
 let delimitMate_expand_space = 1
 let g:move_map_keys = 0                                 " disable other keys vim-move and just use my mapping below
