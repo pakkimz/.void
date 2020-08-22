@@ -13,6 +13,7 @@ Plug 'pakkimz/vim-gummybears-colorscheme'
 Plug 'sheerun/vim-polyglot'                             " mandatory
 Plug 'Raimondi/delimitMate'                             " jump c-g g or just repeat the action
 Plug 'preservim/nerdtree'
+Plug 'majutsushi/tagbar'                                " sudo xbps-install ctags
 Plug 'rking/ag.vim'
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'jeetsukumaran/vim-buffergator'                    " leader-b for for buffer leader-t for tab
@@ -31,7 +32,6 @@ Plug 'kana/vim-textobj-entire'
 Plug 'kana/vim-textobj-function'
 Plug 'vim-scripts/argtextobj.vim'
 Plug 'vim-scripts/loremipsum'
-Plug 'majutsushi/tagbar'                                " sudo xbps-install ctags
 " Plug 'Yggdroot/indentLine'                              " need expandtab to make it works
 " Plug 'ivalkeen/vim-simpledb'
 Plug 'gregsexton/matchtag'
