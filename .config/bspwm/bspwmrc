@@ -15,6 +15,8 @@ pgrep bspswallow || bspswallow &
 # bspc monitor -d 1 2 3 4 5
 # bspc monitor -d     
 bspc monitor -d     
+# bspc monitor -d     
+# bspc monitor -d     
 
 # super + {h,j,k,l} can focus on floating window
 bspc config directional_focus_tightness low

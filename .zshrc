@@ -117,3 +117,9 @@ alias vim=nvim
 alias config='/usr/bin/git --git-dir=$HOME/.void --work-tree=$HOME'
 alias connect='sudo wpa_supplicant -B -i wlp2s0b1 -c /etc/wpa_supplicant/wpa_supplicant.conf'
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+PATH="/home/house/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="/home/house/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/home/house/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/home/house/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/home/house/perl5"; export PERL_MM_OPT;
