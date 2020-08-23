@@ -3,7 +3,7 @@ background = #222
 background-alt = #444
 foreground = #dfdfdf
 foreground-alt = #555
-primary = #CDC9E9
+primary = #24ADFC
 secondary = #e60053
 alert = #bd2c40
 brown = #A52A2A
@@ -124,7 +124,7 @@ type = internal/memory
 interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = ${colors.primary}
+format-underline = ${colors.brown}
 label = %percentage_used%%
 
 [module/cpu]
@@ -132,7 +132,7 @@ type = internal/cpu
 interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = ${colors.primary}
+format-underline = ${colors.brown}
 label = %percentage:2%%
 
 [module/filesystem]
@@ -157,7 +157,7 @@ time-alt = %H:%M:%S
 
 format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = ${colors.brown}
+format-underline = ${colors.primary}
 
 label = %date% %time%
 
