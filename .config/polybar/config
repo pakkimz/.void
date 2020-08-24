@@ -21,7 +21,7 @@ foreground = ${colors.foreground}
 line-size = 2
 line-color = #f00
 
-padding-left = 0
+padding-left = 2
 padding-right = 2
 
 module-margin-left = 1
@@ -33,8 +33,11 @@ font-2 = siji:pixelsize=10;1
 font-3 = FiraCode Nerd Font Mono:pixelsize=13:antialias=true;2
 ; font-4 = FontAwesome:style:Regular:pixelsize=12;antialias=true;2
 
-modules-left = bspwm wlan xwindow
-modules-right = temperature xkeyboard memory cpu filesystem date powermenu
+; modules-left = bspwm xkeyboard wlan xwindow
+; modules-right = temperature memory cpu filesystem date powermenu
+modules-left = temperature date wlan xkeyboard
+modules-center = bspwm
+modules-right = memory cpu filesystem powermenu
 
 override-redirect = true
 cursor-click = pointer
