@@ -35,7 +35,7 @@ font-3 = FiraCode Nerd Font Mono:pixelsize=13:antialias=true;2
 
 ; modules-left = bspwm xkeyboard wlan xwindow
 ; modules-right = temperature memory cpu filesystem date powermenu
-modules-left = temperature date wlan xkeyboard
+modules-left = date temperature xkeyboard wlan
 modules-center = bspwm
 modules-right = memory cpu filesystem powermenu
 
@@ -160,7 +160,7 @@ time-alt = %H:%M:%S
 
 format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = ${colors.brown}
+format-underline = ${colors.primary}
 
 label = %date% %time%
 
