@@ -8,6 +8,7 @@ nm-applet &
 compton &
 nitrogen --restore &
 unclutter &
+xrdb -I$HOME ~/.Xresources
 xautolock -time 9 -locker slock &
 xsetroot -cursor_name left_ptr &
 # redshift &
