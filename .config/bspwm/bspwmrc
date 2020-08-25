@@ -3,11 +3,13 @@
 bspc rule -r "*"
 sxhkd &
 # picom -CG &
+# devmon &
 compton &
-nitrogen --restore &
-xsetroot -cursor_name left_ptr &
+nm-applet &
 unclutter &
+nitrogen --restore &
 xautolock -time 9 -locker slock &
+xsetroot -cursor_name left_ptr &
 # redshift &
 pgrep bspswallow || bspswallow &
 

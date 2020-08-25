@@ -35,10 +35,15 @@ font-3 = FiraCode Nerd Font Mono:pixelsize=13:antialias=true;2
 
 ; modules-left = bspwm xkeyboard wlan xwindow
 ; modules-right = temperature memory cpu filesystem date powermenu
-modules-left = date temperature xkeyboard wlan
+modules-left = date temperature xkeyboard
 modules-center = bspwm
 modules-right = memory cpu filesystem powermenu
 
+tray-position = left
+tray-padding = 2
+tray-background = ${colors.background}
+
+wm-restack = bspwm
 override-redirect = true
 cursor-click = pointer
 cursor-scroll = ns-resize
