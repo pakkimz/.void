@@ -4,10 +4,10 @@ bspc rule -r "*"
 sxhkd &
 # picom -CG &
 # devmon &
-compton &
 nm-applet &
-unclutter &
+compton &
 nitrogen --restore &
+unclutter &
 xautolock -time 9 -locker slock &
 xsetroot -cursor_name left_ptr &
 # redshift &
@@ -38,4 +38,3 @@ bspc rule -a SeaMonkey:Download state=floating
 bspc rule -a SeaMonkey:Places state=floating
 bspc rule -a "Pale moon" desktop='^2'follow=on
 # bspc rule -a Screenkey manage=off
-/home/house/.config/polybar/launch.sh &
