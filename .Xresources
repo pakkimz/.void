@@ -8,29 +8,31 @@ Xft.lcdfilter: lcddefault
 
 *termName: xterm-256color
 ! Use a truetype font and size.
-! xterm*faceName: DejaVu Sans Mono:style=Book
-! xterm*faceName: DejaVuSansMono Nerd Font Mono:style=Book
-! xterm*faceName: RobotoMono Nerd Font Mono:style=Regular
-! xterm*faceName: Cousine Nerd Font Mono:style=Regular
+! *faceName: DejaVu Sans Mono:style=Book
+! *faceName: DejaVuSansMono Nerd Font Mono:style=Book
+! *faceName: RobotoMono Nerd Font Mono:style=Regular
+! *faceName: Cousine Nerd Font Mono:style=Regular
+! *faceName: Hack Nerd Font Mono:style=Regular
+! *faceName: JetBrainsMono Nerd Font Mono:style=Regular
+! *faceName: MesloLGS Nerd Font Mono:style=Regular
+! *faceName: Monaco Nerd Font:style=Regular
+! *faceName: SFMono Nerd Font,SF Mono:style=Regular
 *faceName: FiraCode Nerd Font Mono:style=Regular
-! xterm*faceName: Hack Nerd Font Mono:style=Regular
-! xterm*faceName: JetBrainsMono Nerd Font Mono:style=Regular
-! xterm*faceName: MesloLGS Nerd Font Mono:style=Regular
 *faceSize: 12
 *renderFont: true
+*allowBoldFonts: false
 
 ! Blink cursor
 ! *cursorBlink: true
 ! *cursorOffTime: 1000
 ! *cursorOnTime: 1000
-! *pointerColor: white
-! *pointerColorBackground: black
-! *pointerShape: arrow
 *cursorColor: #CDC9E9
 
 ! Cursor color is always the color of the foreground,
 ! *cursorColor: *XtDefaultForeground
 
+! cursor shape when over xterm
+*pointerShape: arrow
 ! Only select text
 *highlightSelection: true
 ! Remove trailing spaces
