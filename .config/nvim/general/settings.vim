@@ -14,7 +14,7 @@ set softtabstop=2
 set shiftwidth=2
 set textwidth=106
 set columns=106																					" auto newline in insert mode
-set linebreak																						" break by word rather than character
+" set linebreak																						" break by word rather than character
 set autoindent
 set smartindent
 set mouse=a
