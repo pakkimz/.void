@@ -25,9 +25,10 @@ let g:qs_lazy_highlight = 1
 let g:qs_max_chars = 125
 
 " vim syntastic
+let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': [],'passive_filetypes': [] }	" dont autostart
 let g:syntastic_check_on_wq = 0
-nnoremap <C-w>e :Errors<CR>
 nnoremap <silent> <C-s> :SyntasticToggleMode<CR>
+nnoremap <C-w>e :Errors<CR>
 
 " vim move
 let g:move_map_keys = 0                                 " disable other keys vim-move and just use my mapping below
