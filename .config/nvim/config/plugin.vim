@@ -51,5 +51,5 @@ let g:NERDTreeWinSize = 25
 let g:NERDTreeChDirMode = 2															" autochange directory from nerdtree
 let g:NERDTreeMouseMode = 2															" single click open directory
 " close buffer in nerdtree open
-nnoremap <silent><leader>d :bp<cr>:bd #<cr>
+nnoremap <silent> <leader>d :bp<cr>:bd #<cr>
 nnoremap <silent> <C-n> :NERDTreeToggle<CR>
