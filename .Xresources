@@ -26,7 +26,7 @@ Xft.lcdfilter: lcddefault
 ! *cursorBlink: true
 ! *cursorOffTime: 1000
 ! *cursorOnTime: 1000
-*cursorColor: #CDC9E9
+*cursorColor: #CDE9D9
 
 ! Cursor color is always the color of the foreground,
 ! *cursorColor: *XtDefaultForeground

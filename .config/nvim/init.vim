@@ -14,6 +14,7 @@ Plug 'sheerun/vim-polyglot'                             " mandatory
 Plug 'Raimondi/delimitMate'                             " jump c-g g or just repeat the action
 Plug 'preservim/nerdtree'
 Plug 'majutsushi/tagbar'                                " sudo xbps-install ctags
+Plug 'vim-syntastic/syntastic'
 Plug 'rking/ag.vim'
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'jeetsukumaran/vim-buffergator'                    " leader-b for for buffer leader-t for tab
@@ -42,3 +43,4 @@ call plug#end()
 source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/keys/mappings.vim
 source $HOME/.config/nvim/commands/commands.vim
+source $HOME/.config/nvim/config/plugin.vim
