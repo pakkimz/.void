@@ -62,6 +62,7 @@ nnoremap <silent><leader>o :%bd\|e#\|bd#<CR>
 nnoremap <silent><leader>O :%bd!\|e#\|bd!#<CR>
 nnoremap <silent><leader>f :e .<CR>
 nnoremap <silent><leader>F :e ~/<CR>
+nnoremap <leader>s :saveas<Space>
 nnoremap <leader>e :e<Space>
 nnoremap <leader>E :e <C-R>=expand("%:p:h") . "/" <CR>
 nnoremap <leader>cd :cd %:p:h<CR>:pwd<CR>

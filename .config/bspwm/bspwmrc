@@ -37,5 +37,6 @@ bspc rule -a Chromium desktop='^2'follow=on
 bspc rule -a SeaMonkey desktop='^2'follow=on
 bspc rule -a SeaMonkey:Download state=floating
 bspc rule -a SeaMonkey:Places state=floating
+# bspc rule -a SeaMonkey:Devtools state=floating
 bspc rule -a "Pale moon" desktop='^2'follow=on
 # bspc rule -a Screenkey manage=off
