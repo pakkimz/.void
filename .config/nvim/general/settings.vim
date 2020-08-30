@@ -1,7 +1,7 @@
 set termguicolors                                       " enable true colors support
 set synmaxcol=300                                       " set maximal column for syntax coloring
 set regexpengine=1																			" fixes slow speed due to syntax highlighting
-set updatetime=100
+set updatetime=50
 set number
 set showcmd                                             " showing command history
 set noshowmode                                          " hide the insert status
@@ -13,7 +13,7 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 set textwidth=106
-set columns=106																					" auto newline in insert mode
+set columns=106																					" auto newline in insert mode after n columns
 " set linebreak																						" break by word rather than character
 set autoindent
 set smartindent
