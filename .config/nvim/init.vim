@@ -9,12 +9,12 @@ filetype plugin indent on                               " all in one line
 
 call plug#begin('~/.config/nvim/plugged')
 " Plug 'igungor/schellar'
+" Plug 'vim-syntastic/syntastic'
 Plug 'pakkimz/vim-gummybears-colorscheme'
 Plug 'sheerun/vim-polyglot'                             " mandatory
 Plug 'Raimondi/delimitMate'                             " jump c-g g or just repeat the action
 Plug 'preservim/nerdtree'
 Plug 'majutsushi/tagbar'                                " sudo xbps-install ctags
-Plug 'vim-syntastic/syntastic'
 Plug 'rking/ag.vim'
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'jeetsukumaran/vim-buffergator'                    " leader-b for for buffer leader-t for tab
@@ -35,8 +35,8 @@ Plug 'vim-scripts/argtextobj.vim'
 Plug 'vim-scripts/loremipsum'
 " Plug 'Yggdroot/indentLine'                              " need expandtab to make it works
 " Plug 'ivalkeen/vim-simpledb'
-Plug 'gregsexton/matchtag'
-Plug 'ap/vim-css-color'
+" Plug 'gregsexton/matchtag'
+" Plug 'ap/vim-css-color'
 Plug 'captbaritone/better-indent-support-for-php-with-html'
 call plug#end()
 
