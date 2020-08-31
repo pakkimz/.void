@@ -41,6 +41,6 @@ Plug 'captbaritone/better-indent-support-for-php-with-html'
 call plug#end()
 
 source $HOME/.config/nvim/general/settings.vim
+source $HOME/.config/nvim/config/plugin.vim
 source $HOME/.config/nvim/keys/mappings.vim
 source $HOME/.config/nvim/commands/commands.vim
-source $HOME/.config/nvim/config/plugin.vim
