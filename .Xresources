@@ -4,7 +4,6 @@ Xft.antialias: 1
 Xft.hinting: true
 Xft.hintstyle: hintslight
 Xft.rgba: rgb
-Xft.lcdfilter: lcddefault
 
 *termName: xterm-256color
 ! Use a truetype font and size.
@@ -17,11 +16,13 @@ Xft.lcdfilter: lcddefault
 ! *faceName: MesloLGS Nerd Font Mono:style=Regular
 ! *faceName: Monaco Nerd Font:style=Regular
 ! *faceName: SFMono Nerd Font,SF Mono:style=Regular
+! *faceName: Iosevka Nerd Font Mono:style=Regular
 *faceName: FiraCode Nerd Font Mono:style=Regular
 *faceSize: 12
 *renderFont: true
 *allowBoldFonts: false
 
+! *geometry: 87x17
 ! Blink cursor
 ! *cursorBlink: true
 ! *cursorOffTime: 1000
@@ -31,6 +32,8 @@ Xft.lcdfilter: lcddefault
 ! Cursor color is always the color of the foreground,
 ! *cursorColor: *XtDefaultForeground
 
+! prevent jumping back to the last line with new output
+*scrollTtyOutput: false
 ! cursor shape when over xterm
 *pointerShape: arrow
 ! Only select text
