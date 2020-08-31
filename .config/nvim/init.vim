@@ -32,7 +32,6 @@ Plug 'tpope/vim-commentary'
 Plug 'kana/vim-textobj-user'
 Plug 'kana/vim-textobj-entire'
 Plug 'kana/vim-textobj-function'
-Plug 'vim-scripts/argtextobj.vim'
 Plug 'vim-scripts/loremipsum'
 Plug 'vim-scripts/ReplaceWithRegister'
 " Plug 'Yggdroot/indentLine'                              " need expandtab to make it works
