@@ -94,6 +94,10 @@ super + bracket{left,right}
 super + alt + bracket{left,right}
 	bspc desktop -f {prev,next}.occupied.local
 
+# focus or send to desktop in the given direction
+super + {_,shift + }bracket{left,right}
+	bspc {desktop -f,node -d} {prev,next}.local
+
 # focus the last node/desktop
 super + {grave,Tab}
 	bspc {node,desktop} -f last
