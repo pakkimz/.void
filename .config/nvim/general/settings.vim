@@ -1,5 +1,5 @@
 set termguicolors                                       " enable true colors support
-set synmaxcol=300                                       " set maximal column for syntax coloring
+set synmaxcol=128                                       " syntax coloring lines that are too long just slows down the world
 set regexpengine=1																			" fixes slow speed due to syntax highlighting
 set updatetime=50
 set number
@@ -13,8 +13,6 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 set textwidth=106
-set columns=106																					" auto newline in insert mode after n columns
-" set linebreak																						" break by word rather than character
 set autoindent
 set smartindent
 set mouse=a
@@ -45,6 +43,25 @@ set listchars=tab:→\ ,eol:↲                             " unicode for → = 
 set hidden																							" moving buffer without saving it
 
 let mapleader = ' '
+let delimitMate_expand_cr = 1
+let delimitMate_expand_space = 1
+let g:move_map_keys = 0                                 " disable other keys vim-move and just use my mapping below
+let g:comfortable_motion_no_default_key_mappings = 1    " disable default mapping
+let g:buffergator_viewport_split_policy = "B"
+let g:buffergator_split_size = 10
+let g:tagbar_sort = 0                                   " order tags based on file order, don't sort alphabetically
+let g:tagbar_width = 25
+let g:NERDTreeWinSize = 25
+let g:NERDTreeChDirMode = 2															" autochange directory from nerdtree
+let g:NERDTreeMouseMode = 2															" single click open directory
+let g:highlightedyank_highlight_duration = 100
+let g:ag_mapping_message = 0
+let g:ag_highlight = 1
+let g:qs_highlight_on_keys = ['f', 'F', 't', 'T']
+let g:qs_lazy_highlight = 1
+let g:qs_max_chars = 125
+let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': [],'passive_filetypes': [] }	" dont autostart
+let g:syntastic_check_on_wq = 0
 
 " change cursor shape in different mode
 let &t_SI = "\<Esc>[6 q"

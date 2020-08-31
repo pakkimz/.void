@@ -25,8 +25,8 @@ nnoremap [s i<space><esc>
 nnoremap ]s a<space><esc>
 
 "easier horizontal scrolling
-nnoremap zl ZL
-nnoremap zh ZH
+nnoremap zl zL
+nnoremap zh zH
 
 " re-select visual block after indenting
 vnoremap < <gv
@@ -66,6 +66,10 @@ nnoremap <leader>s :saveas<Space>
 nnoremap <leader>e :e<Space>
 nnoremap <leader>E :e <C-R>=expand("%:p:h") . "/" <CR>
 nnoremap <leader>cd :cd %:p:h<CR>:pwd<CR>
+nnoremap <leader>A :Ag!<space>
+
+" close buffer in nerdtree open
+nnoremap <silent><leader>d :bp<cr>:bd #<cr>
 
 " clipboard install vim-gtk or alias vim-x11 or install xsel in neovim
 nnoremap gy "+y
@@ -87,3 +91,23 @@ cnoremap <A-h> <left>
 cnoremap <A-l> <right>
 cnoremap <A-k> <S-Left>
 cnoremap <A-j> <S-Right>
+
+" vim-move mapping
+vmap <C-j> <Plug>MoveBlockDown
+vmap <C-k> <Plug>MoveBlockUp
+nmap <C-j> <Plug>MoveLineDown
+nmap <C-k> <Plug>MoveLineUp
+
+" don't scroll too fast
+nnoremap <silent> <C-d> :call comfortable_motion#flick(50)<CR>
+nnoremap <silent> <C-u> :call comfortable_motion#flick(-50)<CR>
+nnoremap <silent> <C-f> :call comfortable_motion#flick(100)<CR>
+nnoremap <silent> <C-b> :call comfortable_motion#flick(-100)<CR>
+
+" tagbar and nerdtree
+nnoremap <silent> <F8> :TagbarToggle<CR>
+nnoremap <silent> <C-n> :NERDTreeToggle<CR>
+
+" vim syntastic
+nnoremap <silent> <C-s> :SyntasticToggleMode<CR>
+nnoremap <C-w>e :Errors<CR>
