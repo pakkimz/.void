@@ -158,7 +158,7 @@ super + {equal}
 # adjust gap size
 super + {minus,plus}
 	bspc config -d focused window_gap $((`bspc config -d focused window_gap` {-,+} 2 ))
-# adjust gap sized focused d sktop window gap
+# adjust gap sized focused desktop window gap with mouse
 super + button{4,5}
 	bspc config -d focused window_gap $((`bspc config -d focused window_gap` {-,+} 2 ))
 
