@@ -22,7 +22,6 @@ Xft.rgba: rgb
 *renderFont: true
 *allowBoldFonts: false
 
-! *geometry: 87x17
 ! Blink cursor
 ! *cursorBlink: true
 ! *cursorOffTime: 1000
@@ -32,8 +31,6 @@ Xft.rgba: rgb
 ! Cursor color is always the color of the foreground,
 ! *cursorColor: *XtDefaultForeground
 
-! prevent jumping back to the last line with new output
-*scrollTtyOutput: false
 ! cursor shape when over xterm
 *pointerShape: arrow
 ! Only select text
