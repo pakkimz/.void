@@ -13,7 +13,6 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'pakkimz/vim-gummybears-colorscheme'
 Plug 'sheerun/vim-polyglot'                             " mandatory
 Plug 'Raimondi/delimitMate'                             " jump c-g g or just repeat the action
-Plug 'wellle/targets.vim'																" more powerful ci) ...
 Plug 'preservim/nerdtree'
 Plug 'majutsushi/tagbar'                                " sudo xbps-install ctags
 Plug 'rking/ag.vim'
@@ -29,11 +28,12 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-commentary'
-Plug 'kana/vim-textobj-user'
-Plug 'kana/vim-textobj-entire'
-Plug 'kana/vim-textobj-function'
 Plug 'vim-scripts/loremipsum'
 Plug 'vim-scripts/ReplaceWithRegister'
+Plug 'kana/vim-textobj-user'
+Plug 'kana/vim-textobj-entire'
+Plug 'akiyan/vim-textobj-php'
+Plug 'wellle/targets.vim'																" more powerful ci) ...
 " Plug 'Yggdroot/indentLine'                              " need expandtab to make it works
 " Plug 'ivalkeen/vim-simpledb'
 " Plug 'gregsexton/matchtag'
