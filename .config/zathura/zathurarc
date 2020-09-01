@@ -1,26 +1,40 @@
-https://github.com/MiguelRAvila/Dotfiles/blob/master/.config/zathura/zathurarc
+set notification-error-bg       "#101010" # bg
+set notification-error-fg       "#fb4934" # bright:red
+set notification-warning-bg     "#101010" # bg
+set notification-warning-fg     "#fabd2f" # bright:yellow
+set notification-bg             "#101010" # bg
+set notification-fg             "#b8bb26" # bright:green
 
-set selection-clipboard clipboard
-set font "Fira Sans Regular 10"
-set recolor
-set smooth-scroll "true"
-set page-padding 1
-set statusbar-v-padding 2
-set statusbar-h-padding 20
+set completion-bg               "#504945" # bg2
+set completion-fg               "#C0C0C0" # fg
+set completion-group-bg         "#3c3836" # bg1
+set completion-group-fg         "#928374" # gray
+set completion-highlight-bg     "#83a598" # bright:blue
+set completion-highlight-fg     "#504945" # bg2
 
-set statusbar-bg "#0F0F0F"
-set completion-bg "#0F0F0F"
-set inputbar-bg "#0F0F0F"
-set statusbar-fg "#0F0F0F"
-set recolor-lightcolor "#0F0F0F"
-set recolor-darkcolor "#aab9cc"
-set inputbar-fg "#0F0F0F"
-set default-bg "#0F0F0F"
-set default-fg "#aab9cc"
-set notification-error-bg "#CC7670"
-set notification-error-fg "#0F0F0F"
-set notification-warning-bg #CC7670"
-set notification-warning-fg #0F0F0F"
-set completion-highlight-bg "#CC7670"
-set completion-highlight-fg "#0F0F0F"
-set completion-fg "#0F0F0F"
+# Define the color in index mode
+set index-bg                    "#504945" # bg2
+set index-fg                    "#C0C0C0" # fg
+set index-active-bg             "#83a598" # bright:blue
+set index-active-fg             "#504945" # bg2
+
+set inputbar-bg                 "#101010" # bg
+set inputbar-fg                 "#C0C0C0" # fg
+
+set statusbar-bg                "#504945" # bg2
+set statusbar-fg                "#C0C0C0" # fg
+
+set highlight-color             "#fabd2f" # bright:yellow
+set highlight-active-color      "#fe8019" # bright:orange
+
+set default-bg                  "#101010" # bg
+set default-fg                  "#C0C0C0" # fg
+set render-loading              true
+set render-loading-bg           "#101010" # bg
+set render-loading-fg           "#C0C0C0" # fg
+
+# Recolor book content's color
+set recolor-lightcolor          "#101010" # bg
+set recolor-darkcolor           "#C0C0C0" # fg
+set recolor                     "true"
+# set recolor-keephue true # keep original color
