@@ -32,7 +32,8 @@ set splitright
 set undofile
 set history=1000
 set backup
-set backupext=.bak
+set writebackup																					" make backup before overwriting the current buffer
+set backupcopy=yes																			" overwrite the original backup file
 set viminfo='20,\"100,s10,h                             " dont store more than 100 lines, h: disable hlsearch, s10 max KB
 set undodir^=~/.vim/tmp/undo//
 set directory=~/.vim/tmp/swap//
