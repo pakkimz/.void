@@ -9,7 +9,7 @@ filetype plugin indent on                               " all in one line
 
 call plug#begin('~/.config/nvim/plugged')
 " Plug 'igungor/schellar'
-" Plug 'vim-syntastic/syntastic'
+Plug 'vim-syntastic/syntastic', { 'on': 'SyntasticToggleMode' }
 Plug 'pakkimz/vim-gummybears-colorscheme'
 Plug 'sheerun/vim-polyglot'                             " mandatory
 Plug 'Raimondi/delimitMate'                             " jump c-g g or just repeat the action
@@ -23,7 +23,7 @@ Plug 'henrik/vim-indexed-search'
 Plug 'unblevable/quick-scope'
 Plug 'matze/vim-move'
 Plug 'tpope/vim-eunuch'
-Plug 'tpope/vim-ragtag'																	" ctrl-X spaces or enter in html
+Plug 'tpope/vim-ragtag', { 'for': ['html', 'php'] }				" ctrl-X spaces or enter in html
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
@@ -32,13 +32,13 @@ Plug 'vim-scripts/loremipsum'
 Plug 'vim-scripts/ReplaceWithRegister'
 Plug 'kana/vim-textobj-user'
 Plug 'kana/vim-textobj-entire'
-Plug 'akiyan/vim-textobj-php'
+Plug 'akiyan/vim-textobj-php', { 'for': 'php' }
 Plug 'wellle/targets.vim'																" more powerful ci) ...
-" Plug 'Yggdroot/indentLine'                              " need expandtab to make it works
 " Plug 'ivalkeen/vim-simpledb'
-" Plug 'gregsexton/matchtag'
 " Plug 'ap/vim-css-color'
-Plug 'captbaritone/better-indent-support-for-php-with-html'
+" Plug 'gregsexton/matchtag', { 'for': 'html' }
+Plug 'Yggdroot/indentLine', { 'for': 'html' }           " need expandtab to make it works
+Plug 'captbaritone/better-indent-support-for-php-with-html', { 'for': 'php' }
 call plug#end()
 
 source $HOME/.config/nvim/general/settings.vim
