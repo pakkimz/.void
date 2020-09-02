@@ -22,4 +22,4 @@ autocmd BufWritePre * let &bex = '@' . strftime("%F.%H:%M")
 autocmd BufLeave * if !&diff | let b:winview = winsaveview() | endif
 autocmd BufEnter * if exists('b:winview') && !&diff | call winrestview(b:winview) | unlet! b:winview | endif
 " resets the soft tab value to 2 spaces when I open a Python file
-autocmd FileType python, html, php setlocal shiftwidth=2 expandtab
+autocmd FileType python, html, css, php setlocal shiftwidth=2 expandtab
