@@ -15,6 +15,7 @@ set shiftwidth=2
 set textwidth=106
 set autoindent
 set smartindent
+set breakindent
 set mouse=a
 set wildmenu
 set nostartofline                                       " sometimes cursor jumping back
