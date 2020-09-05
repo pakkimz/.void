@@ -10,11 +10,11 @@ filetype plugin indent on                               " all in one line
 call plug#begin('~/.config/nvim/plugged')
 " Plug 'igungor/schellar'
 Plug 'vim-syntastic/syntastic', { 'on': 'SyntasticToggleMode' }
+Plug 'majutsushi/tagbar', { 'on': 'TagbarToggle' }      " sudo xbps-install ctags
 Plug 'pakkimz/vim-gummybears-colorscheme'
 Plug 'sheerun/vim-polyglot'                             " mandatory
 Plug 'Raimondi/delimitMate'                             " jump c-g g or just repeat the action
 Plug 'preservim/nerdtree'
-Plug 'majutsushi/tagbar'                                " sudo xbps-install ctags
 Plug 'rking/ag.vim'
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'jeetsukumaran/vim-buffergator'                    " leader-b for for buffer leader-t for tab
@@ -23,7 +23,7 @@ Plug 'henrik/vim-indexed-search'
 Plug 'unblevable/quick-scope'
 Plug 'matze/vim-move'
 Plug 'tpope/vim-eunuch'
-Plug 'tpope/vim-ragtag', { 'for': ['html', 'php'] }			" ctrl-X spaces or enter in html
+Plug 'tpope/vim-ragtag', { 'for': ['html', 'php', 'javascript'] }			" ctrl-X spaces or enter in html
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
