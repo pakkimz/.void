@@ -23,7 +23,7 @@ Plug 'henrik/vim-indexed-search'
 Plug 'unblevable/quick-scope'
 Plug 'matze/vim-move'
 Plug 'tpope/vim-eunuch'
-Plug 'tpope/vim-ragtag', { 'for': ['html', 'php', 'javascript'] }			" ctrl-X spaces or enter in html
+Plug 'tpope/vim-ragtag'																	" ctrl-X spaces or enter in html
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
@@ -37,7 +37,7 @@ Plug 'wellle/targets.vim'																" more powerful ci) ...
 " Plug 'ivalkeen/vim-simpledb'
 " Plug 'ap/vim-css-color'
 " Plug 'gregsexton/matchtag', { 'for': 'html' }
-Plug 'Yggdroot/indentLine', { 'for': 'html' }           " need expandtab to make it works
+Plug 'Yggdroot/indentLine'															" need expandtab to make it works
 Plug 'captbaritone/better-indent-support-for-php-with-html', { 'for': 'php' }
 call plug#end()
 
