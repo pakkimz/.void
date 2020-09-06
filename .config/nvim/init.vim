@@ -32,7 +32,6 @@ Plug 'vim-scripts/loremipsum'
 Plug 'vim-scripts/ReplaceWithRegister'
 Plug 'kana/vim-textobj-user'
 Plug 'kana/vim-textobj-entire'
-Plug 'akiyan/vim-textobj-php', { 'for': 'php' }
 Plug 'wellle/targets.vim'																" more powerful ci) ...
 " Plug 'ivalkeen/vim-simpledb'
 " Plug 'ap/vim-css-color'
