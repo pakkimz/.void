@@ -12,6 +12,10 @@ noremap Q <Nop>
 inoremap <tab> <C-p>
 inoremap <S-tab> <tab>
 
+" easier scroll when wrap
+nnoremap <expr> j v:count ? 'j' : 'gj'
+nnoremap <expr> k v:count ? 'k' : 'gk'
+
 " super duper tab
 inoremap <expr> <C-k> ((pumvisible())?("\<C-p>"):("\<C-x><c-p>"))
 inoremap <expr> <C-j> ((pumvisible())?("\<C-n>"):("\<C-x><c-n>"))

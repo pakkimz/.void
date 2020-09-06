@@ -16,6 +16,7 @@ set textwidth=106
 set autoindent
 set smartindent
 set breakindent
+set linebreak																						" wrap word
 set mouse=a
 set wildmenu
 set nostartofline                                       " sometimes cursor jumping back
