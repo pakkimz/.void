@@ -64,16 +64,12 @@ nnoremap <silent><leader>r :bd<CR>
 nnoremap <silent><leader>R :bw!<CR>
 nnoremap <silent><leader>o :%bd\|e#\|bd#<CR>
 nnoremap <silent><leader>O :%bd!\|e#\|bd!#<CR>
-nnoremap <silent><leader>f :e .<CR>
-nnoremap <silent><leader>F :e ~/<CR>
-nnoremap <leader>s :saveas<Space>
+nnoremap <leader>a :Ag!<space>
 nnoremap <leader>e :e<Space>
 nnoremap <leader>E :e <C-R>=expand("%:p:h") . "/" <CR>
+nnoremap <leader>f :find<Space>
+nnoremap <leader>s :saveas<Space>
 nnoremap <leader>cd :cd %:p:h<CR>:pwd<CR>
-nnoremap <leader>A :Ag!<space>
-
-" close buffer in nerdtree open
-nnoremap <silent><leader>d :bp<cr>:bd #<cr>
 
 " clipboard install vim-gtk or alias vim-x11 or install xsel in neovim
 nnoremap gy "+y
@@ -108,10 +104,15 @@ nnoremap <silent> <C-u> :call comfortable_motion#flick(-50)<CR>
 nnoremap <silent> <C-f> :call comfortable_motion#flick(100)<CR>
 nnoremap <silent> <C-b> :call comfortable_motion#flick(-100)<CR>
 
-" tagbar and nerdtree
+" tagbar
 nnoremap <silent> <F8> :TagbarToggle<CR>
-nnoremap <silent> <C-n> :NERDTreeToggle<CR>
 
 " vim syntastic
 nnoremap <silent> <C-s> :SyntasticToggleMode<CR>
 nnoremap <C-w>e :Errors<CR>
+
+" nerdtree
+nnoremap <silent> <C-n> :NERDTreeToggle<CR>
+nnoremap <silent><leader>d :bp<cr>:bd #<cr>
+nnoremap gn :e .<CR>
+nnoremap gN :e ~/<CR>
