@@ -17,6 +17,7 @@ Xft.rgba: rgb
 ! *faceName: Monaco Nerd Font:style=Regular
 ! *faceName: SFMono Nerd Font,SF Mono:style=Regular
 ! *faceName: Iosevka Nerd Font Mono:style=Regular
+! *faceName: Fira Sans Mono:style=Regular
 *faceName: FiraCode Nerd Font Mono:style=Regular
 *faceSize: 12
 *renderFont: true
