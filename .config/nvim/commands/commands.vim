@@ -16,7 +16,7 @@ autocmd BufWrite * :%s/\(\s*\n\)\+\%$//ge
 autocmd BufWrite * :%s/\(\s*\n\)\{3,}/\r\r/ge
 " disable autocomment
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
-" meaningful backup name, ex: filename@2015-04-05.14:59
+" meaningful backup name
 autocmd BufWritePre * let &bex = '@' . strftime("%F.%H:%M")
 " when switching buffers, preserve window view.
 autocmd BufLeave * if !&diff | let b:winview = winsaveview() | endif
