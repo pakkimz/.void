@@ -83,6 +83,8 @@ nnoremap gP "+P
 vnoremap gp "+p
 
 " moving around in insert & command mode, ctrl+b & ctrl+e move beginning and end
+inoremap <C-b> <Home>
+inoremap <C-e> <End>
 inoremap <A-h> <left>
 inoremap <A-l> <right>
 inoremap <A-k> <S-Left>
