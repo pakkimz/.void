@@ -66,6 +66,9 @@ let g:qs_lazy_highlight = 1
 let g:qs_max_chars = 125
 let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': [],'passive_filetypes': [] }	" dont autostart
 let g:syntastic_check_on_wq = 0
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_javascript_eslint_exec = 'eslint_d'
 
 " change cursor shape in different mode
 let &t_SI = "\<Esc>[6 q"
