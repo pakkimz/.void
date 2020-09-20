@@ -75,6 +75,10 @@ nnoremap <leader>f :find<Space>
 nnoremap <leader>s :saveas<Space>
 nnoremap <leader>cd :cd %:p:h<CR>:pwd<CR>
 
+" mru and buffer
+nnoremap <C-t> :b <C-z>
+nnoremap <C-m> :browse oldfiles<CR>
+
 " clipboard install vim-gtk or alias vim-x11 or install xsel in neovim
 nnoremap gy "+y
 nnoremap gY "+y$
@@ -98,6 +102,19 @@ cnoremap <A-l> <right>
 cnoremap <A-k> <S-Left>
 cnoremap <A-j> <S-Right>
 
+" tagbar
+nnoremap <silent> <F8> :TagbarToggle<CR>
+
+" vim syntastic
+nnoremap <silent> <C-s> :SyntasticToggleMode<CR>
+nnoremap <C-w>e :Errors<CR>
+
+" nerdtree
+nnoremap gn :e .<CR>
+nnoremap gN :e ~/<CR>
+nnoremap <silent> <C-n> :NERDTreeToggle .<CR>
+nnoremap <silent><leader>d :bp<cr>:bd #<cr>
+
 " vim-move mapping
 vmap <C-j> <Plug>MoveBlockDown
 vmap <C-k> <Plug>MoveBlockUp
@@ -109,20 +126,3 @@ nnoremap <silent> <C-d> :call comfortable_motion#flick(50)<CR>
 nnoremap <silent> <C-u> :call comfortable_motion#flick(-50)<CR>
 nnoremap <silent> <C-f> :call comfortable_motion#flick(100)<CR>
 nnoremap <silent> <C-b> :call comfortable_motion#flick(-100)<CR>
-
-" tagbar
-nnoremap <silent> <F8> :TagbarToggle<CR>
-
-" vim mru and buffer
-nnoremap <C-m> :ME <C-z>
-nnoremap <C-b> :b <C-z>
-
-" vim syntastic
-nnoremap <silent> <C-s> :SyntasticToggleMode<CR>
-nnoremap <C-w>e :Errors<CR>
-
-" nerdtree
-nnoremap gn :e .<CR>
-nnoremap gN :e ~/<CR>
-nnoremap <silent> <C-n> :NERDTreeToggle .<CR>
-nnoremap <silent><leader>d :bp<cr>:bd #<cr>
