@@ -10,6 +10,10 @@ super + Return
 super + space
 	dmenu_run -fn 'Fira Sans-11:normal'
 
+# program clipmenu
+super + ctrl + space
+	clipmenu -fn 'Fira Sans-11:normal'
+
 # program pcman
 super + e
 	pcmanfm
