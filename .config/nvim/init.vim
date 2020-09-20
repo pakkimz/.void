@@ -18,6 +18,7 @@ Plug 'preservim/nerdtree'
 Plug 'rking/ag.vim'
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'jeetsukumaran/vim-buffergator'                    " leader-b for for buffer leader-t for tab
+Plug 'romainl/vim-tinyMRU'
 Plug 'machakann/vim-highlightedyank'
 Plug 'henrik/vim-indexed-search'
 Plug 'unblevable/quick-scope'

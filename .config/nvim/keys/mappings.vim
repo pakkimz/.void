@@ -20,6 +20,10 @@ nnoremap <expr> k v:count ? 'k' : 'gk'
 inoremap <expr> <C-k> ((pumvisible())?("\<C-p>"):("\<C-x><c-p>"))
 inoremap <expr> <C-j> ((pumvisible())?("\<C-n>"):("\<C-x><c-n>"))
 
+" scroll in command mode
+cnoremap <C-k> <C-p>
+cnoremap <C-j> <C-n>
+
 " intuitive moving buffer
 nnoremap <C-l> :bnext<CR>
 nnoremap <BS> :bprevious<CR>
@@ -108,6 +112,10 @@ nnoremap <silent> <C-b> :call comfortable_motion#flick(-100)<CR>
 
 " tagbar
 nnoremap <silent> <F8> :TagbarToggle<CR>
+
+" vim mru
+set wildcharm=<C-z>
+nnoremap <C-m> :ME <C-z>
 
 " vim syntastic
 nnoremap <silent> <C-s> :SyntasticToggleMode<CR>
