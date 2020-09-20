@@ -16,12 +16,12 @@ Plug 'sheerun/vim-polyglot'                             " mandatory
 Plug 'Raimondi/delimitMate'                             " jump c-g g or just repeat the action
 Plug 'preservim/nerdtree'
 Plug 'rking/ag.vim'
-Plug 'yuttie/comfortable-motion.vim'
-Plug 'jeetsukumaran/vim-buffergator'                    " leader-b for for buffer leader-t for tab
 Plug 'romainl/vim-tinyMRU'
+Plug 'yuttie/comfortable-motion.vim'
 Plug 'machakann/vim-highlightedyank'
 Plug 'henrik/vim-indexed-search'
 Plug 'unblevable/quick-scope'
+" Plug 'jeetsukumaran/vim-buffergator'                    " leader-b for for buffer leader-t for tab
 " Plug 'PeterRincker/vim-searchlight'
 Plug 'matze/vim-move'
 Plug 'tpope/vim-eunuch'

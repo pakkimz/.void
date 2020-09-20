@@ -113,9 +113,9 @@ nnoremap <silent> <C-b> :call comfortable_motion#flick(-100)<CR>
 " tagbar
 nnoremap <silent> <F8> :TagbarToggle<CR>
 
-" vim mru
-set wildcharm=<C-z>
+" vim mru and buffer
 nnoremap <C-m> :ME <C-z>
+nnoremap <C-b> :b <C-z>
 
 " vim syntastic
 nnoremap <silent> <C-s> :SyntasticToggleMode<CR>
