@@ -21,6 +21,7 @@ Plug 'jeetsukumaran/vim-buffergator'                    " leader-b for for buffe
 Plug 'machakann/vim-highlightedyank'
 Plug 'henrik/vim-indexed-search'
 Plug 'unblevable/quick-scope'
+" Plug 'PeterRincker/vim-searchlight'
 Plug 'matze/vim-move'
 Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-ragtag'																	" ctrl-X spaces or enter in html
