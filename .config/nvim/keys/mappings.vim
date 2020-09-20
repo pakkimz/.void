@@ -122,7 +122,7 @@ nnoremap <silent> <C-s> :SyntasticToggleMode<CR>
 nnoremap <C-w>e :Errors<CR>
 
 " nerdtree
-nnoremap <silent> <C-n> :NERDTreeToggle<CR>
-nnoremap <silent><leader>d :bp<cr>:bd #<cr>
 nnoremap gn :e .<CR>
 nnoremap gN :e ~/<CR>
+nnoremap <silent> <C-n> :NERDTreeToggle .<CR>
+nnoremap <silent><leader>d :bp<cr>:bd #<cr>
