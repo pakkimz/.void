@@ -20,7 +20,7 @@ Plug 'yuttie/comfortable-motion.vim'
 Plug 'machakann/vim-highlightedyank'
 Plug 'henrik/vim-indexed-search'
 Plug 'unblevable/quick-scope'
-" Plug 'romainl/vim-tinyMRU'
+Plug 'romainl/vim-tinyMRU'
 " Plug 'PeterRincker/vim-searchlight'
 " Plug 'jeetsukumaran/vim-buffergator'                    " leader-b for for buffer leader-t for tab
 Plug 'matze/vim-move'

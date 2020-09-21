@@ -76,8 +76,8 @@ nnoremap <leader>s :saveas<Space>
 nnoremap <leader>cd :cd %:p:h<CR>:pwd<CR>
 
 " mru and buffer
-nnoremap <C-t> :b <C-z>
-nnoremap <C-m> :browse oldfiles<CR>
+nnoremap <leader>b :b <C-z>
+nnoremap <leader>m :ME <C-z>
 
 " clipboard install vim-gtk or alias vim-x11 or install xsel in neovim
 nnoremap gy "+y
@@ -103,16 +103,16 @@ cnoremap <A-k> <S-Left>
 cnoremap <A-j> <S-Right>
 
 " tagbar
-nnoremap <silent> <F8> :TagbarToggle<CR>
+nnoremap <silent><F8> :TagbarToggle<CR>
 
 " vim syntastic
-nnoremap <silent> <C-s> :SyntasticToggleMode<CR>
+nnoremap <silent><C-s> :SyntasticToggleMode<CR>
 nnoremap <C-w>e :Errors<CR>
 
 " nerdtree
 nnoremap gn :e .<CR>
 nnoremap gN :e ~/<CR>
-nnoremap <silent> <C-n> :NERDTreeToggle .<CR>
+nnoremap <silent><C-n> :NERDTreeToggle .<CR>
 nnoremap <silent><leader>d :bp<cr>:bd #<cr>
 
 " vim-move mapping

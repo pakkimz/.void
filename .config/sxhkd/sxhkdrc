@@ -15,7 +15,7 @@ super + alt + space
 	clipmenu -fn 'Fira Sans-11:normal'
 
 # program emoji
-super + shift + space
+super + alt + shift + space
 	$HOME/.config/dmenu-emoji/dmenu-emoji.sh
 
 # program pcman
