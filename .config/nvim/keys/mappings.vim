@@ -112,7 +112,7 @@ nnoremap <C-w>e :Errors<CR>
 " nerdtree
 nnoremap gn :e .<CR>
 nnoremap gN :e ~/<CR>
-nnoremap <silent><C-n> :NERDTreeToggle .<CR>
+nnoremap <silent><C-n> :NERDTreeToggle . <Bar>wincmd p<Bar><CR>
 nnoremap <silent><leader>d :bp<cr>:bd #<cr>
 
 " vim-move mapping
