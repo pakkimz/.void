@@ -105,9 +105,19 @@ cnoremap <A-j> <S-Right>
 " tagbar
 nnoremap <silent><F8> :TagbarToggle<CR>
 
+" vim indentline
+nnoremap <silent><F9> :IndentLinesToggle<CR>
+
 " vim syntastic
-nnoremap <silent><C-s> :SyntasticToggleMode<CR>
-nnoremap <C-w>e :Errors<CR>
+nnoremap <silent><F5> :SyntasticToggleMode<CR>
+function! ToggleErrors()
+    let old_last_winnr = winnr('$')
+    lclose
+    if old_last_winnr == winnr('$')
+        Errors
+    endif
+endfunction
+nnoremap <silent><C-e> :<C-u>call ToggleErrors()<CR>
 
 " nerdtree
 nnoremap gn :e .<CR>
