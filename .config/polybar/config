@@ -94,7 +94,7 @@ label = %title:0:30:...%
 [module/temperature]
 type = internal/temperature
 thermal-zone= acpitz
-hwmon-path = /sys/devices/pci0000:00/0000:00:18.3/hwmon/hwmon1/temp1_input
+hwmon-path = /sys/devices/pci0000:00/0000:00:18.3/hwmon/hwmon4/temp1_input
 warn-temperature = 60
 
 format = <ramp> <label>
