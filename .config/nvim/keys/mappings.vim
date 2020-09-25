@@ -110,13 +110,6 @@ nnoremap <silent><F9> :IndentLinesToggle<CR>
 
 " vim syntastic
 nnoremap <silent><F5> :SyntasticToggleMode<CR>
-function! ToggleErrors()
-    let old_last_winnr = winnr('$')
-    lclose
-    if old_last_winnr == winnr('$')
-        Errors
-    endif
-endfunction
 nnoremap <silent><C-e> :<C-u>call ToggleErrors()<CR>
 
 " nerdtree
