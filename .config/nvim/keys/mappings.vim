@@ -1,6 +1,9 @@
 " '., gi, gv, go
 nnoremap g. `.
 
+" re select pasted text
+nnoremap gV `[v`]
+
 " make Y yank to end of line (like D or C)
 nnoremap Y y$
 
