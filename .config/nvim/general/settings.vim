@@ -12,6 +12,8 @@ set ttimeoutlen=10                                      " faster sequance esc+O
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
+set smarttab																						" tab in insert mode use shiftwidth instead of softtabstop
+set shiftround																					" >> always same as tab size even after inserting space
 set textwidth=106
 set autoindent
 set smartindent
@@ -19,6 +21,7 @@ set breakindent
 set linebreak																						" wrap word
 set mouse=a
 set wildmenu
+set wildmode=full																				" just use regular wildmode
 set nostartofline                                       " sometimes cursor jumping back
 set noexpandtab
 set hlsearch
@@ -47,3 +50,4 @@ set backspace=indent,eol,start													" set backspace to delete normally
 set listchars=tab:→\ ,eol:↲                             " unicode for → = u2192, ↲ = u21b2. set list to display it
 set hidden																							" moving buffer without saving it
 set wildcharm=<C-z>                                     " make mru and buffer working
+set virtualedit=block																		" block selection in visual mode
