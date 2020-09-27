@@ -20,23 +20,24 @@ Plug 'yuttie/comfortable-motion.vim'
 Plug 'machakann/vim-highlightedyank'
 Plug 'romainl/vim-tinyMRU'
 Plug 'henrik/vim-indexed-search'
-Plug 'AndrewRadev/splitjoin.vim'                        " gS and gJ split and join
 Plug 'unblevable/quick-scope'
-Plug 'lfilho/cosco.vim'
 " Plug 'PeterRincker/vim-searchlight'
 " Plug 'jeetsukumaran/vim-buffergator'                    " leader-b for for buffer leader-t for tab
 Plug 'matze/vim-move'
 Plug 'tpope/vim-eunuch'
-Plug 'tpope/vim-ragtag'																	" ctrl-X spaces or enter in html
+Plug 'tpope/vim-ragtag'																	" ctrl-x spaces or enter in html
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
-Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-unimpaired'
 Plug 'vim-scripts/loremipsum'
 Plug 'vim-scripts/ReplaceWithRegister'
 Plug 'kana/vim-textobj-user'
 Plug 'kana/vim-textobj-entire'
 Plug 'wellle/targets.vim'																" more powerful ci) ...
+Plug 'tommcdo/vim-exchange'															" exchange word cxiw,cxx,X,cxc
+Plug 'lfilho/cosco.vim'																	" alt+;
+Plug 'AndrewRadev/splitjoin.vim'                        " gS and gJ split and join
 " Plug 'ivalkeen/vim-simpledb'
 " Plug 'ap/vim-css-color'
 " Plug 'gregsexton/matchtag', { 'for': 'html' }
