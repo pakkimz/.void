@@ -18,9 +18,11 @@ Plug 'preservim/nerdtree'
 Plug 'rking/ag.vim'
 Plug 'yuttie/comfortable-motion.vim'
 Plug 'machakann/vim-highlightedyank'
-Plug 'henrik/vim-indexed-search'
-Plug 'unblevable/quick-scope'
 Plug 'romainl/vim-tinyMRU'
+Plug 'henrik/vim-indexed-search'
+Plug 'AndrewRadev/splitjoin.vim'                        " gS and gJ split and join
+Plug 'unblevable/quick-scope'
+Plug 'lfilho/cosco.vim'
 " Plug 'PeterRincker/vim-searchlight'
 " Plug 'jeetsukumaran/vim-buffergator'                    " leader-b for for buffer leader-t for tab
 Plug 'matze/vim-move'

@@ -115,6 +115,10 @@ nnoremap <silent><F9> :IndentLinesToggle<CR>
 nnoremap <silent><F5> :SyntasticToggleMode<CR>
 nnoremap <silent><C-e> :<C-u>call ToggleErrors()<CR>
 
+" vim cosco
+nnoremap <silent> <A-;> :CommaOrSemiColon<CR>
+inoremap <silent> <A-;> <esc>:CommaOrSemiColon<CR>a
+
 " nerdtree
 nnoremap gn :e .<CR>
 nnoremap gN :e ~/<CR>
