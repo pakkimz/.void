@@ -10,3 +10,8 @@ Using Manjaro(Arch) Linux:
 $ sudo pacman -S php-gd
 In file /etc/php/php-ini, add the line:
 extension=gd.so
+
+--------------------------------------
+********** php tanpa apache **********
+--------------------------------------
+php -S localhost:8000
