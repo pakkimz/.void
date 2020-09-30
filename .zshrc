@@ -119,6 +119,7 @@ alias connect='sudo wpa_supplicant -B -i wlp2s0b1 -c /etc/wpa_supplicant/wpa_sup
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 export PATH="/home/house/.local/bin:$PATH"
+export PATH="/home/house/.config/bspwm/scripts/:$PATH"
 
 PATH="/home/house/perl5/bin${PATH:+:${PATH}}"; export PATH;
 PERL5LIB="/home/house/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;

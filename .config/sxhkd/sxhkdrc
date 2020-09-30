@@ -16,7 +16,7 @@ super + alt + space
 
 # program emoji
 super + alt + shift + space
-	$HOME/.config/dmenu-emoji/dmenu-emoji.sh
+	dmenu-emoji.sh
 
 # program pcman
 super + e
@@ -32,11 +32,11 @@ ctrl + alt + l
 
 # hide/show floating window
 ctrl + alt + h
-	/bin/hide
+	hide
 
 # logout
 super + alt + shift + q
-	/bin/logout
+	dmenu_logout
 
 # make sxhkd reload its configuration files:
 super + Escape
