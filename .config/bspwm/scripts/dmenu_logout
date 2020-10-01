@@ -1,11 +1,10 @@
 #!/bin/sh
 
 # https://github.com/aguslr/bspwm-config/blob/master/.config/bspwm/scripts/dmenu-logout
-# Set environment
-# export BSPWM_CONFIG="${XDG_CONFIG_HOME:-$HOME/.config}/bspwm"
 
 # Function to kill programs
 killprogs() {
+	pkill -x xnots
 	pkill -x redshift
 }
 
