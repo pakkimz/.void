@@ -4,6 +4,7 @@ colorscheme gummybears
 let mapleader = ' '
 let delimitMate_expand_cr = 1
 let delimitMate_expand_space = 1
+let delimitMateBackspace = 1
 let g:move_map_keys = 0                                 " disable other keys vim-move and just use my mapping
 let g:NERDTreeWinSize = 25
 let g:highlightedyank_highlight_duration = 100
