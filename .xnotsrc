@@ -1,6 +1,6 @@
 * background	: #ffff88
 * foreground	: #222222
-* bypassWM	: false
+* bypassWM	: true
 * onTop		: false
 * useMarkup	: 1
 * font		: Permanent Marker
