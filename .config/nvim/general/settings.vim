@@ -28,7 +28,7 @@ set hlsearch
 set confirm																							" ask to save buffer
 set autowrite		                                        " automatically save before commands like :next and :make
 set complete-=i                                         " get rid system include in auto completion
-set shortmess=aFI																				" disable prompts, filename and intro message
+set shortmess=aI																				" disable prompts and intro message
 set pumheight=10																				" makes popup menu smaller
 set laststatus=1
 set scrolloff=2
