@@ -62,7 +62,7 @@ nnoremap <silent><C-w>> :vertical:resize +5<CR>
 nnoremap <silent><C-w>< :vertical:resize -5<CR>
 
 " play with leader
-nnoremap <silent><leader>w :silent w!<CR>
+nnoremap <silent><leader>w :w!<CR>
 nnoremap <silent><leader>W :wa!<CR>
 nnoremap <silent><leader>x :x<CR>
 nnoremap <silent><leader>q :q<CR>
